@@ -1,0 +1,15 @@
+{
+    "name": "Shroomling",
+    "powers": [
+        "spooncraft_origins:tiny",
+        "spooncraft_origins:bonemeal",
+        "spooncraft_origins:speedy",
+        "spooncraft_origins:shroom_cap",
+        "origins:fall_immunity",
+        "spooncraft_origins:poison_immunity"
+    ],
+    "icon": {
+        "item": "red_mushroom"
+    },
+    "impact": 2
+}

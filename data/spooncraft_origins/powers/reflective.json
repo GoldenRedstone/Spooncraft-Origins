@@ -1,0 +1,73 @@
+{
+    "name": "Reflective Skin",
+    "description": "Your skin reflects the brightness of your surroundings.",
+    "type": "origins:multiple",
+    "key0": {
+        "condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:in_block",
+                    "block_condition": {
+                        "type": "origins:light_level",
+                        "light_type": "block",
+                        "comparison": ">=",
+                        "compare_to": 7
+                    }
+                },
+                {
+                    "type": "origins:and",
+                    "conditions": [
+                        {
+                            "type": "origins:brightness",
+                            "comparison": ">=",
+                            "compare_to": 0.2
+                        },
+                        {
+                            "type": "origins:daytime"
+                        }
+                    ]
+                }
+            ]
+        },
+        "type": "origins:model_color",
+        "red": 1,
+        "green": 0.7,
+        "blue": 0.3,
+        "alpha": 1
+    },
+    "key1": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:in_block",
+                    "block_condition": {
+                        "type": "origins:light_level",
+                        "light_type": "block",
+                        "comparison": "<=",
+                        "compare_to": 1
+                    }
+                },
+                {
+                    "type": "origins:or",
+                    "conditions": [
+                        {
+                            "type": "origins:brightness",
+                            "comparison": "<",
+                            "compare_to": 0.1
+                        },
+                        {
+                            "inverted": true,
+                            "type": "origins:daytime"
+                        }
+                    ]
+                }
+            ]
+        },
+        "type": "origins:model_color",
+        "red": 0.1,
+        "green": 0.05,
+        "blue": 0
+    }
+}

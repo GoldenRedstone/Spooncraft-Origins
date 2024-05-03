@@ -1,0 +1,8 @@
+{
+    "name": "Wendigo",
+    "powers": [
+        "spooncraft_origins:nocturnal",
+        "spooncraft_origins:fire_weakness"
+    ],
+    "impact": 2
+}

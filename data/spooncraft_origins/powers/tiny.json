@@ -1,0 +1,6 @@
+{
+    "name": "Tiny",
+    "description": "You are much smaller than a human.",
+    "type": "extraorigins:modify_size",
+    "scale": 0.3
+}

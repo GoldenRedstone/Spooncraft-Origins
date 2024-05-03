@@ -1,0 +1,9 @@
+{
+    "name": "Ameterasu's Blessing",
+    "description": "Your luck increases when under the sun.",
+    "condition": {
+        "type": "origins:exposed_to_sun"
+    },
+    "type": "origins:action_on_block_break",
+    "only_when_harvested": true
+}

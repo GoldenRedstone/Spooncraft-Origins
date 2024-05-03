@@ -1,0 +1,11 @@
+{
+    "origins": [
+        "spooncraft_origins:golden_dragon",
+        "spooncraft_origins:shroomling",
+        "spooncraft_origins:endermoth",
+        "spooncraft_origins:dolfijn",
+        "spooncraft_origins:wendigo",
+        "spooncraft_origins:spoonling"
+    ],
+    "enabled": true
+}

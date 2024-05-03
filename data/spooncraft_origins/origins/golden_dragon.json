@@ -1,0 +1,15 @@
+{
+    "name": "Golden Dragon",
+    "powers": [
+        "spooncraft_origins:reflective",
+        "spooncraft_origins:light_powerful",
+        "spooncraft_origins:light_fortune",
+        "spooncraft_origins:light_glowing",
+        "spooncraft_origins:dark_weakness",
+        "spooncraft_origins:scared_of_dark"
+    ],
+    "icon": {
+        "item": "glowstone_dust"
+    },
+    "impact": 3
+}

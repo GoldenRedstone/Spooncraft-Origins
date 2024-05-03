@@ -1,0 +1,22 @@
+{
+    "name": "Decomposer",
+    "description": "Your body produces natural compost.",
+    "type": "origins:action_on_wake_up",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:give",
+                "stack": {
+                    "item": "minecraft:bone_meal"
+                }
+            },
+            {
+                "type": "origins:play_sound",
+                "sound": "minecraft:block.composter.ready",
+                "volume": 1,
+                "pitch": 1
+            }
+        ]
+    }
+}

@@ -1,0 +1,109 @@
+{
+    "hidden": true,
+    "type": "origins:multiple",
+    "key0": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:in_block",
+                    "block_condition": {
+                        "type": "origins:light_level",
+                        "light_type": "block",
+                        "comparison": "<=",
+                        "compare_to": 4
+                    }
+                },
+                {
+                    "type": "origins:or",
+                    "conditions": [
+                        {
+                            "type": "origins:brightness",
+                            "comparison": "<",
+                            "compare_to": 0.1
+                        },
+                        {
+                            "inverted": true,
+                            "type": "origins:daytime"
+                        }
+                    ]
+                }
+            ]
+        },
+        "type": "origins:modify_break_speed",
+        "modifier": {
+            "operation": "multiply_base",
+            "value": -0.5
+        }
+    },
+    "key1": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:in_block",
+                    "block_condition": {
+                        "type": "origins:light_level",
+                        "light_type": "block",
+                        "comparison": "<=",
+                        "compare_to": 4
+                    }
+                },
+                {
+                    "type": "origins:or",
+                    "conditions": [
+                        {
+                            "type": "origins:brightness",
+                            "comparison": "<",
+                            "compare_to": 0.1
+                        },
+                        {
+                            "inverted": true,
+                            "type": "origins:daytime"
+                        }
+                    ]
+                }
+            ]
+        },
+        "type": "origins:modify_damage_taken",
+        "modifier": {
+            "operation": "addition",
+            "value": 6
+        }
+    },
+    "key2": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:in_block",
+                    "block_condition": {
+                        "type": "origins:light_level",
+                        "light_type": "block",
+                        "comparison": "<=",
+                        "compare_to": 4
+                    }
+                },
+                {
+                    "type": "origins:or",
+                    "conditions": [
+                        {
+                            "type": "origins:brightness",
+                            "comparison": "<",
+                            "compare_to": 0.1
+                        },
+                        {
+                            "inverted": true,
+                            "type": "origins:daytime"
+                        }
+                    ]
+                }
+            ]
+        },
+        "type": "origins:modify_damage_dealt",
+        "modifier": {
+            "operation": "addition",
+            "value": -6
+        }
+    }
+}

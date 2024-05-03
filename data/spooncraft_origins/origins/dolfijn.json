@@ -1,0 +1,13 @@
+{
+    "name": "Dolfijn",
+    "powers": [
+        "origins:water_vision",
+        "origins:aqua_affinity",
+        "origins:swim_speed",
+        "origins:aquatic"
+    ],
+    "icon": {
+        "item": "minecraft:cod"
+    },
+    "impact": 1
+}

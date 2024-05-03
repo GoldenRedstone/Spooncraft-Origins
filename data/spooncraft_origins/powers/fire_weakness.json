@@ -1,0 +1,12 @@
+{
+    "name": "Cold Blooded",
+    "description": "You take additional damage from flames.",
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+        "type": "origins:fire"
+    },
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 2
+    }
+}

@@ -1,0 +1,14 @@
+{
+    "name": "Endermoth",
+    "powers": [
+        "origins:throw_ender_pearl",
+        "origins:water_vulnerability",
+        "origins:ender_particles",
+        "spooncraft_origins:edible_lights",
+        "spooncraft_origins:nocturnal"
+    ],
+    "icon": {
+        "item": "minecraft:redstone_lamp"
+    },
+    "impact": 2
+}

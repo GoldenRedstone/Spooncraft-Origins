@@ -1,0 +1,32 @@
+{
+    "hidden": true,
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:in_block",
+                "block_condition": {
+                    "type": "origins:light_level",
+                    "light_type": "block",
+                    "comparison": "<=",
+                    "compare_to": 1
+                }
+            },
+            {
+                "type": "origins:or",
+                "conditions": [
+                    {
+                        "type": "origins:brightness",
+                        "comparison": "<",
+                        "compare_to": 0.1
+                    },
+                    {
+                        "inverted": true,
+                        "type": "origins:daytime"
+                    }
+                ]
+            }
+        ]
+    },
+    "type": "origins:shaking"
+}
