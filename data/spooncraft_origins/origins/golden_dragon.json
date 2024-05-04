@@ -1,5 +1,6 @@
 {
-    "name": "Golden Dragon",
+    "name": "Draconis Aurei",
+    "description": "The greatest hoard should glimmer in the sun.",
     "powers": [
         "spooncraft_origins:reflective",
         "spooncraft_origins:light_powerful",

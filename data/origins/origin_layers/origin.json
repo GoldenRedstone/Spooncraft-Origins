@@ -7,5 +7,6 @@
         "spooncraft_origins:wendigo",
         "spooncraft_origins:spoonling"
     ],
-    "enabled": true
+    "enabled": true,
+    "default_origin": "spooncraft_origins:spoonling"
 }

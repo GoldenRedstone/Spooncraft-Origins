@@ -1,5 +1,6 @@
 {
-    "hidden": true,
+    "name": "Crawls in the dark",
+    "description": "You are weakest where there is no light.",
     "type": "origins:multiple",
     "key0": {
         "condition": {

@@ -1,13 +1,15 @@
 {
-    "name": "Dolfijn",
+    "name": "Atlantian",
     "powers": [
         "origins:water_vision",
         "origins:aqua_affinity",
         "origins:swim_speed",
-        "origins:aquatic"
+        "origins:aquatic",
+        "spooncraft_origins:no_lower_armour",
+        "spooncraft_origins:slow_out_of_water"
     ],
     "icon": {
-        "item": "minecraft:cod"
+        "item": "minecraft:trident"
     },
-    "impact": 1
+    "impact": 2
 }

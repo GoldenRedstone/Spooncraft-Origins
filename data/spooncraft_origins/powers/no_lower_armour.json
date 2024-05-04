@@ -1,0 +1,15 @@
+{
+    "name": "Tricky Tail",
+    "description": "Your tail gets in the way of boots and leggings.",
+    "type": "origins:restrict_armor",
+    "legs": {
+        "type": "origins:armor_value",
+        "comparison": ">=",
+        "compare_to": 1
+    },
+    "feet": {
+        "type": "origins:armor_value",
+        "comparison": ">=",
+        "compare_to": 1
+    }
+}

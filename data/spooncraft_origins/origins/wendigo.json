@@ -2,7 +2,8 @@
     "name": "Wendigo",
     "powers": [
         "spooncraft_origins:nocturnal",
-        "spooncraft_origins:fire_weakness"
+        "spooncraft_origins:fire_weakness",
+        "origins:extra_reach"
     ],
     "impact": 2
 }

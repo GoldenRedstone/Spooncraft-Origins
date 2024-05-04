@@ -1,6 +1,6 @@
 {
     "name": "Solar Powered",
-    "description": "You are most powerful in bright light. When in darkness, you are much weaker.",
+    "description": "You are most powerful in bright light.",
     "type": "origins:multiple",
     "key0": {
         "condition": {

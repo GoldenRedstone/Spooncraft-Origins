@@ -1,7 +1,7 @@
 {
     "name": "Decomposer",
     "description": "Your body produces natural compost.",
-    "type": "origins:action_on_wake_up",
+    "type": "origins:action_when_damage_taken",
     "entity_action": {
         "type": "origins:and",
         "actions": [
@@ -18,5 +18,6 @@
                 "pitch": 1
             }
         ]
-    }
+    },
+    "cooldown": 60
 }

@@ -1,6 +1,6 @@
 {
     "name": "Tiny",
-    "description": "You are much smaller than a human.",
+    "description": "You are much smaller than a human and have the health and reach to match.",
     "type": "extraorigins:modify_size",
     "scale": 0.3
 }

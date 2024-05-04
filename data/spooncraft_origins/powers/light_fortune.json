@@ -1,5 +1,5 @@
 {
-    "name": "Ameterasu's Blessing",
+    "name": "Fortunate Sun",
     "description": "Your luck increases when under the sun.",
     "condition": {
         "type": "origins:exposed_to_sun"

@@ -1,5 +1,6 @@
 {
     "name": "Light Eater",
+    "description": "You can only eat light sources.",
     "type": "origins:multiple",
     "prevent": {
         "type": "origins:simple"

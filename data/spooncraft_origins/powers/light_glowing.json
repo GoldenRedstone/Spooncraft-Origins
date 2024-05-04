@@ -19,7 +19,7 @@
                     {
                         "type": "origins:brightness",
                         "comparison": ">=",
-                        "compare_to": 0.2
+                        "compare_to": 0.25
                     },
                     {
                         "type": "origins:daytime"
