@@ -10,7 +10,7 @@
                     "type": "origins:light_level",
                     "light_type": "block",
                     "comparison": ">=",
-                    "compare_to": 7
+                    "compare_to": 11
                 }
             },
             {
@@ -19,7 +19,7 @@
                     {
                         "type": "origins:brightness",
                         "comparison": ">=",
-                        "compare_to": 0.25
+                        "compare_to": 1
                     },
                     {
                         "type": "origins:daytime"
@@ -29,7 +29,7 @@
         ]
     },
     "type": "origins:self_glow",
-    "use_teams": true,
+    "use_teams": false,
     "red": 1,
     "green": 0.7,
     "blue": 0.3

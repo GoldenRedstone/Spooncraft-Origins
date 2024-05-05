@@ -3,11 +3,11 @@
     "description": "The greatest hoard should glimmer in the sun.",
     "powers": [
         "spooncraft_origins:reflective",
-        "spooncraft_origins:light_powerful",
-        "spooncraft_origins:light_fortune",
-        "spooncraft_origins:light_glowing",
+        "spooncraft_origins:bright_powerful",
+        "spooncraft_origins:bright_fortune",
+        "spooncraft_origins:bright_glowing",
         "spooncraft_origins:dark_weakness",
-        "spooncraft_origins:scared_of_dark"
+        "spooncraft_origins:scared_of_dark",
     ],
     "icon": {
         "item": "glowstone_dust"

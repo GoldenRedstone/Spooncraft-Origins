@@ -3,10 +3,10 @@
         "spooncraft_origins:golden_dragon",
         "spooncraft_origins:shroomling",
         "spooncraft_origins:endermoth",
-        "spooncraft_origins:dolfijn",
+        "spooncraft_origins:atlantian",
         "spooncraft_origins:wendigo",
-        "spooncraft_origins:spoonling"
+        "spooncraft_origins:spoonling",
+        "rat:rat"
     ],
-    "enabled": true,
-    "default_origin": "spooncraft_origins:spoonling"
+    "enabled": true
 }

@@ -1,6 +1,30 @@
 {
-    "name": "Tiny",
+    "name": "Tiny Body",
     "description": "You are much smaller than a human and have the health and reach to match.",
-    "type": "extraorigins:modify_size",
-    "scale": 0.3
+    "type": "origins:multiple",
+    "reach": {
+        "type": "origins:attribute",
+        "modifiers": [
+            {
+                "attribute": "reach-entity-attributes:reach",
+                "operation": "addition",
+                "value": -1.5
+            },
+            {
+                "attribute": "reach-entity-attributes:attack_range",
+                "operation": "addition",
+                "value": -1.5
+            }
+        ],
+        "update_health": false
+    },
+    "health": {
+        "type": "origins:attribute",
+        "modifier": {
+            "attribute": "generic.max_health",
+            "operation": "addition",
+            "value": -10
+        },
+        "update_health": true
+    }
 }

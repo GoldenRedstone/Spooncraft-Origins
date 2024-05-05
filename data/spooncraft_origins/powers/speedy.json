@@ -1,12 +1,10 @@
 {
     "name": "Speedy",
     "type": "origins:attribute",
-    "modifiers": [
-        {
-            "attribute": "generic.movement_speed",
-            "operation": "multiply_total",
-            "value": 0.5
-        }
-    ],
+    "modifier": {
+        "attribute": "generic.movement_speed",
+        "operation": "multiply_base",
+        "value": 0.5
+    },
     "update_health": false
 }

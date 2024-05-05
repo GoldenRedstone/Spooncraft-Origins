@@ -3,7 +3,7 @@
 `spooncraft_origins:golden_dragon`  
 Designed by GoldenRedstone  
 Created by GoldenRedstone  
-*The greatest hoard must glimmer in the sun.*  
+*The greatest hoard should glimmer in the sun.*  
 
 ### Powers
 | Name | ID | Description (In-Game) | Description (Detailed) | Status |
@@ -12,6 +12,8 @@ Created by GoldenRedstone
 | Fortunate Sun | `spooncraft_origins:light_fortune` | *Your luck increases when under the sun.* | Player has a chance of doubling drops of ore blocks when under the sun. | Not Functional |
 | Reflective Skin | `spooncraft_origins:reflective` | *Your skin reflects the brightness of your surroundings.* | Player model changes colour in response to the brightness of the surroundings. | Testing Required |
 | Crawls in the dark | `spooncraft_origins:light_weakness` | *You are weakest where there is no light.* | In dark light, the player receives -50% mining speed, -3 hearts damage dealt, and +2 hearts damage taken. | Testing Required |
+| *hidden* | `spooncraft_origins:scared_of_dark` | | Player shakes when in dark spaces. | Fully Functional |
+| *hidden* | `prscaleorigins:tall_scale` | | Player model is visually 10% taller. | Fully Functional |
 
 ## Shroomling  
 `spooncraft_origins:shroomling`  
@@ -21,13 +23,14 @@ Created by GoldenRedstone
 
 ### Powers
 | Name | ID | Description (In-Game) | Description (Detailed) | Status |
-|------------|--------------------------------------|-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------|------------------|
-| Speedy | `spooncraft_origins:speedy` | | | Fully Functional |
+|------------|------------------------------------|-----------------------------------------------------------------------------|-------------------------------------------------------------------|------------------|
+| Speedy | `spooncraft_origins:speedy` | | Player speed increased by 50% | Fully Functional |
 | Acrobatics | `origins:fall_immunity` | *You never take fall damage, no matter from which height you fall.* | The player does not take any fall damage. | Fully Functional |
-| Decomposer | `spooncraft_origins:bonemeal` | *Your body produces natural compost.* | The player spontaneously produces bonemeal at regular intervals. | Fully Functional |
-| Antibiotic | `spooncraft_origins:poison_immunity` | *You are immune to poison* | Immunity to poison. | Fully Functional |
-| Tiny | `spooncraft_origins:tiny` | *You are much smaller than a human and have the health and reach to match.* | Player model scale is 30% of the usual. Max health is decreased by 50%. Reach is decreased by 50%. | Not Functional |
-| Shroom Cap | `spooncraft_origins:shroom_cap` | *You start with a mushroom headpiece.* | The player spawns wearing a curse of binding, curse of vanishing iron helmet. The player cannot wear helmets with defence exceeding iron. | Fully Functional |
+| Decomposer | spooncraft_origins:bonemeal | Your body produces natural compost. | The player spontaneously produces bonemeal at when damaged. | Fully Functional |
+| Antibiotic | spooncraft_origins:poison_immunity | You are immune to poison | Immunity to poison. | Fully Functional |
+| Tiny Body | `spooncraft_origins:tiny` | *You are much smaller than a human and have the health and reach to match.* | Max health is decreased by 50%. Reach is decreased by 1.5 blocks. | Testing Required |
+| *hidden* | `prscaleorigins:micro_scale` | | Sets player scale to approximately 0.3x. | Fully Functional |
+| *hidden* | `prscaleorigins:micro_balance` | | Decreases the range at which mobs can detect the player | Fully Functional |
 
 ## Endermoth  
 `spooncraft_origins:endermoth`  
@@ -41,9 +44,11 @@ Created by GoldenRedstone
 | Teleportation | `origins:throw_ender_pearl` | *Whenever you want, you may throw an ender pearl which deals no damage, allowing you to teleport.* | You can throw an Ender Pearl-like projectile which teleports you without dealing Fall damage to you by pressing your Primary Active power key (default to G) | Fully Functional |
 | Moth Wings | `spooncraft_origins:flight_night` | *Flight is buffed at night.* | | Not Implemented |
 | Pollinate | | | | Not Implemented |
-| Nocturnal | `spooncraft_origins:nocturnal` | *You walk slightly faster during the night and slower during the day.* | Player speed is increased by 15% during the night, and reduced by 30% while in the sunlight. | Not Functional |
+| Nocturnal | `spooncraft_origins:nocturnal` | *You walk slightly faster during the night and slower during the day.* | Player speed is increased by 15% during the night, and reduced by 30% while in direct sunlight. | Fully Functional |
 | Hydrophobia | `origins:water_vulnerability` | *You receive damage over time while in contact with water.* | You receive damage while in contact with water. The damage can be delayed with the water protection enchantment. | Fully Functional |
 | Light Eater | `spooncraft_origins:edible_lights` | *You can only eat light sources.* | The player cannot eat regular food. The player can eat light sources. Hunger is restored based on the approximate light level of the food. | Not Functional |
+| *hidden* | `prscaleorigins:tall_scale` | | Player model is visually 10% taller. | Fully Functional |
+| *hidden* | `origins:ender_particles` | | Player emits ender themed particles. | Fully Functional |
 
 ## Atlantian  
 `spooncraft_origins:dolfijn`  
@@ -54,7 +59,7 @@ Created by GoldenRedstone
 ### Powers
 | Name | ID | Description (In-Game) | Description (Detailed) | Status |
 |---------------|----------------------------------------|----------------------------------------------------------------------|--------------------------------------------------------------|------------------|
-| Amphibious | `spooncraft:water_breathing` | *You can breathe underwater and on land.* | | Not Implemented |
+| Amphibious | `spooncraft:water_breathing` | *You can breathe underwater and on land.* | | Fully Functional |
 | Wet Eyes | `origins:water_vision` | *Your vision underwater is perfect.* | | Fully Functional |
 | Aqua Affinity | `origins:aqua_affinity` | *You may break blocks underwater as others do on land.* | | Fully Functional |
 | Fins | `origins:swim_speed` | *Your underwater speed is increased.* | | Fully Functional |
@@ -70,11 +75,11 @@ Created by GoldenRedstone
 
 ### Powers
 | Name | ID | Description (In-Game) | Description (Detailed) | Status |
-|-----------------|------------------------------------|------------------------------------------------------------------------|----------------------------------------------------------------------------------------------|------------------|
-| Nocturnal | `spooncraft_origins:nocturnal` | *You walk slightly faster during the night and slower during the day.* | Player speed is increased by 15% during the night, and reduced by 30% while in the sunlight. | Testing Required |
-| Invisibility | `spooncraft_origins:invisibility` | | Able to go invisible at will, at the cost of one hunger point for five seconds | Not Implemented |
-| Fast Metabolism | `spooncraft_origins:nocturnal` | | | Not Implemented |
+|-----------------|------------------------------------|--------------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------|------------------|
+| Nocturnal | `spooncraft_origins:nocturnal` | *You walk slightly faster during the night and slower during the day.* | Player speed is increased by 15% during the night, and reduced by 30% while in direct sunlight. | Fully Functional |
+| Invisibility | `spooncraft_origins:invisibility` | *You are able to go invisible at will, but only while you are saturated enough to sprint.* | Toggling invisibility also enables `origins:phantomize_overlay` and `origins:hunger_over_time` | Not Implemented |
+| Fast Metabolism | origins:hunger_over_time | hidden | | Not Functional |
 | | | | 20% damage boost | Not Implemented |
 | Slender Body | `origins:extra_reach` | *You can reach blocks and entities further away.* | The player can reach 1.5 blocks further away. | Fully Functional |
-| | | | Can only eat raw meat, but it gives double saturation | Not Implemented |
+| Blood Eater | | Can only eat raw meat, but it gives double saturation | | Not Implemented |
 | Cold Blooded | `spooncraft_origins:fire_weakness` | *You take additional damage from flames.* | The player takes twice the damage from fire | Fully Functional |

@@ -6,7 +6,9 @@
         "origins:swim_speed",
         "origins:aquatic",
         "spooncraft_origins:no_lower_armour",
-        "spooncraft_origins:slow_out_of_water"
+        "spooncraft_origins:slow_out_of_water",
+        "spooncraft_origins:bubbles",
+        "spooncraft_origins:water_breathing"
     ],
     "icon": {
         "item": "minecraft:trident"

@@ -1,0 +1,9 @@
+{
+    "type": "origins:multiple",
+    "key0": {
+        "condition": {
+            "type": "origins:and"
+        },
+        "type": "origins:simple"
+    }
+}

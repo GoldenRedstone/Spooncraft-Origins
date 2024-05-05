@@ -2,7 +2,7 @@
     "name": "Crawls in the dark",
     "description": "You are weakest where there is no light.",
     "type": "origins:multiple",
-    "key0": {
+    "break": {
         "condition": {
             "type": "origins:and",
             "conditions": [
@@ -12,7 +12,7 @@
                         "type": "origins:light_level",
                         "light_type": "block",
                         "comparison": "<=",
-                        "compare_to": 4
+                        "compare_to": 7
                     }
                 },
                 {
@@ -20,8 +20,8 @@
                     "conditions": [
                         {
                             "type": "origins:brightness",
-                            "comparison": "<",
-                            "compare_to": 0.1
+                            "comparison": "<=",
+                            "compare_to": 0.3
                         },
                         {
                             "inverted": true,
@@ -37,7 +37,7 @@
             "value": -0.5
         }
     },
-    "key1": {
+    "defence": {
         "condition": {
             "type": "origins:and",
             "conditions": [
@@ -47,7 +47,7 @@
                         "type": "origins:light_level",
                         "light_type": "block",
                         "comparison": "<=",
-                        "compare_to": 4
+                        "compare_to": 7
                     }
                 },
                 {
@@ -55,8 +55,8 @@
                     "conditions": [
                         {
                             "type": "origins:brightness",
-                            "comparison": "<",
-                            "compare_to": 0.1
+                            "comparison": "<=",
+                            "compare_to": 0.3
                         },
                         {
                             "inverted": true,
@@ -69,10 +69,10 @@
         "type": "origins:modify_damage_taken",
         "modifier": {
             "operation": "addition",
-            "value": 6
+            "value": 4
         }
     },
-    "key2": {
+    "attack": {
         "condition": {
             "type": "origins:and",
             "conditions": [
@@ -82,7 +82,7 @@
                         "type": "origins:light_level",
                         "light_type": "block",
                         "comparison": "<=",
-                        "compare_to": 4
+                        "compare_to": 7
                     }
                 },
                 {
@@ -90,8 +90,8 @@
                     "conditions": [
                         {
                             "type": "origins:brightness",
-                            "comparison": "<",
-                            "compare_to": 0.1
+                            "comparison": "<=",
+                            "compare_to": 0.3
                         },
                         {
                             "inverted": true,
@@ -106,5 +106,42 @@
             "operation": "addition",
             "value": -6
         }
+    },
+    "speed": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:in_block",
+                    "block_condition": {
+                        "type": "origins:light_level",
+                        "light_type": "block",
+                        "comparison": "<=",
+                        "compare_to": 7
+                    }
+                },
+                {
+                    "type": "origins:or",
+                    "conditions": [
+                        {
+                            "type": "origins:brightness",
+                            "comparison": "<=",
+                            "compare_to": 0.3
+                        },
+                        {
+                            "inverted": true,
+                            "type": "origins:daytime"
+                        }
+                    ]
+                }
+            ]
+        },
+        "type": "origins:attribute",
+        "modifier": {
+            "attribute": "generic.movement_speed",
+            "operation": "multiply_base",
+            "value": -0.15
+        },
+        "update_health": false
     }
 }

@@ -2,7 +2,7 @@
     "name": "Solar Powered",
     "description": "You are most powerful in bright light.",
     "type": "origins:multiple",
-    "key0": {
+    "break": {
         "condition": {
             "type": "origins:or",
             "conditions": [
@@ -21,9 +21,10 @@
                         {
                             "type": "origins:brightness",
                             "comparison": ">=",
-                            "compare_to": 0.2
+                            "compare_to": 0.3
                         },
                         {
+                            "inverted": true,
                             "type": "origins:daytime"
                         }
                     ]
@@ -33,10 +34,10 @@
         "type": "origins:modify_break_speed",
         "modifier": {
             "operation": "multiply_base",
-            "value": 0.8
+            "value": 0.5
         }
     },
-    "key1": {
+    "defence": {
         "condition": {
             "type": "origins:or",
             "conditions": [
@@ -55,9 +56,10 @@
                         {
                             "type": "origins:brightness",
                             "comparison": ">=",
-                            "compare_to": 0.2
+                            "compare_to": 0.3
                         },
                         {
+                            "inverted": true,
                             "type": "origins:daytime"
                         }
                     ]
@@ -67,10 +69,10 @@
         "type": "origins:modify_damage_taken",
         "modifier": {
             "operation": "addition",
-            "value": -6
+            "value": -3
         }
     },
-    "key2": {
+    "attack": {
         "condition": {
             "type": "origins:or",
             "conditions": [
@@ -89,9 +91,10 @@
                         {
                             "type": "origins:brightness",
                             "comparison": ">=",
-                            "compare_to": 0.2
+                            "compare_to": 0.3
                         },
                         {
+                            "inverted": true,
                             "type": "origins:daytime"
                         }
                     ]
@@ -101,7 +104,44 @@
         "type": "origins:modify_damage_dealt",
         "modifier": {
             "operation": "addition",
-            "value": 6
+            "value": 5
         }
+    },
+    "speed": {
+        "condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:in_block",
+                    "block_condition": {
+                        "type": "origins:light_level",
+                        "light_type": "block",
+                        "comparison": ">=",
+                        "compare_to": 7
+                    }
+                },
+                {
+                    "type": "origins:and",
+                    "conditions": [
+                        {
+                            "type": "origins:brightness",
+                            "comparison": ">=",
+                            "compare_to": 0.3
+                        },
+                        {
+                            "inverted": true,
+                            "type": "origins:daytime"
+                        }
+                    ]
+                }
+            ]
+        },
+        "type": "origins:attribute",
+        "modifier": {
+            "attribute": "generic.movement_speed",
+            "operation": "multiply_base",
+            "value": 0.15
+        },
+        "update_health": false
     }
 }
