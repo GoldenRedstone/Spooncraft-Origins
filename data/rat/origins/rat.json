@@ -1,0 +1,22 @@
+{
+    "name": "Rat",
+    "description": "Crazy? I was crazy once, they put me in a room. A rubber room. A rubber room with rats. And rats make me crazy,",
+    "powers": [
+        "rat:pickup",
+        "spooncraft_origins:speedy",
+        "rat:bubwonic_pwagueowo",
+        "rat:ratpoisonbar",
+        "rat:poison_accumulation",
+        "rat:plagonify",
+        "origins:fall_immunity",
+        "prscaleorigins:micro_scale",
+        "prscaleorigins:micro_balance",
+        "spooncraft_origins:tiny"
+    ],
+    "icon": {
+        "item": "minecraft:totem_of_undying"
+    },
+    "order": 0,
+    "impact": 3,
+    "loading_priority": 10
+}

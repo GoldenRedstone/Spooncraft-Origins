@@ -1,0 +1,45 @@
+{
+    "name": "bubwonic pwague",
+    "description": "average 1347-1351 rat vibin in asia and europe's streets (colorized)",
+    "type": "origins:multiple",
+    "poisnd_are_weak": {
+        "condition": {
+            "type": "origins:power_active",
+            "power": "rat:plagonify"
+        },
+        "type": "origins:modify_damage_dealt",
+        "modifier": {
+            "operation": "addition",
+            "value": 3,
+            "name": "Extra damage when enemy is poisoned"
+        }
+    },
+    "nom": {
+        "type": "origins:self_action_on_hit",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:feed",
+                    "food": 1,
+                    "saturation": 2
+                },
+                {
+                    "type": "origins:heal",
+                    "amount": 2
+                }
+            ]
+        },
+        "cooldown": 250,
+        "hud_render": {
+            "should_render": true,
+            "bar_index": 2
+        }
+    },
+    "nu_uh": {
+        "type": "origins:effect_immunity",
+        "effects": [
+            "minecraft:poison"
+        ]
+    }
+}

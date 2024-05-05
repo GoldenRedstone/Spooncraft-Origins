@@ -1,0 +1,107 @@
+{
+    "name": "Little Companion",
+    "description": "Other players can scoop you up!",
+    "type": "origins:multiple",
+    "scoop": {
+        "type": "origins:action_on_being_used",
+        "bientity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:invert",
+                    "action": {
+                        "type": "origins:mount"
+                    }
+                },
+                {
+                    "type": "origins:target_action",
+                    "action": {
+                        "type": "origins:trigger_cooldown",
+                        "power": "*:*_cd"
+                    }
+                },
+                {
+                    "type": "origins:actor_action",
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "playsound minecraft:entity.axolotl.idle_air player @a"
+                    }
+                }
+            ]
+        },
+        "bientity_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:actor_condition",
+                    "condition": {
+                        "inverted": true,
+                        "type": "origins:passenger",
+                        "comparison": ">=",
+                        "compare_to": 1
+                    }
+                },
+                {
+                    "type": "origins:target_condition",
+                    "condition": {
+                        "inverted": true,
+                        "type": "origins:resource",
+                        "resource": "*:*_cd",
+                        "comparison": ">",
+                        "compare_to": 0
+                    }
+                }
+            ]
+        },
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "item": "minecraft:bowl"
+            }
+        },
+        "action_result": "success",
+        "priority": 0
+    },
+    "cd": {
+        "type": "origins:cooldown",
+        "cooldown": 500,
+        "hud_render": {
+            "should_render": true,
+            "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+            "bar_index": 2
+        }
+    },
+    "mounted": {
+        "condition": {
+            "type": "origins:riding",
+            "bientity_condition": {
+                "type": "origins:target_condition",
+                "condition": {
+                    "type": "origins:entity_type",
+                    "entity_type": "minecraft:player"
+                }
+            }
+        },
+        "entity_action": {
+            "type": "origins:execute_command",
+            "command": "execute at @s run function rat:mounted"
+        },
+        "interval": 20
+    },
+    "dismount": {
+        "condition": {
+            "type": "origins:riding",
+            "bientity_condition": {
+                "type": "origins:target_condition",
+                "condition": {
+                    "type": "origins:sneaking"
+                }
+            }
+        },
+        "type": "origins:action_over_time",
+        "interval": 20,
+        "entity_action": {
+            "type": "origins:dismount"
+        }
+    }
+}
