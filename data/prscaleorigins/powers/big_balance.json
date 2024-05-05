@@ -1,0 +1,61 @@
+{
+    "name": "Hulking",
+    "description": "It's easy to see you approaching. Not so easy to outrun you.",
+    "hidden": true,
+    "type": "origins:multiple",
+    "prscale_commands": {
+        "type": "origins:action_on_callback",
+        "execute_chosen_when_orb": true,
+        "entity_action_added": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale multiply pehkui:knockback 1.2",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale multiply pehkui:reach 1.15",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale multiply pehkui:visibility 1.15",
+                    "permission_level": 4
+                }
+            ]
+        },
+        "entity_action_removed": {
+            "type": "origins:execute_command",
+            "command": "scale reset",
+            "permission_level": 4
+        }
+    },
+    "prscale_attributes": {
+        "type": "origins:attribute",
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.knockback_resistance",
+                "operation": "addition",
+                "value": -0.2,
+                "name": "Hulking knockback resistance"
+            },
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "multiply_base",
+                "value": 0.1,
+                "name": "Hulking movespeed multiplier"
+            }
+        ],
+        "update_health": true
+    },
+    "prscale_jumpmod": {
+        "type": "origins:modify_jump",
+        "modifier": {
+            "operation": "addition",
+            "value": 0.1,
+            "name": "Hulking jump bonus"
+        }
+    }
+}

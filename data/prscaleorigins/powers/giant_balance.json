@@ -1,0 +1,75 @@
+{
+    "name": "Vast",
+    "description": "One of the largest humanoids to ever exist. Mythical strength and speed.",
+    "type": "origins:multiple",
+    "prscale_commands": {
+        "type": "origins:action_on_callback",
+        "entity_action_added": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale multiply pehkui:falling 0.65",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale multiply pehkui:knockback 1.75",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale multiply pehkui:reach 1.4",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale multiply pehkui:step_height 2",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale multiply pehkui:visibility 1.4",
+                    "permission_level": 4
+                }
+            ]
+        },
+        "entity_action_removed": {
+            "type": "origins:execute_command",
+            "command": "scale reset",
+            "permission_level": 4
+        }
+    },
+    "prscale_attributes": {
+        "type": "origins:attribute",
+        "modifiers": [
+            {
+                "name": "Vast max health multiplier",
+                "attribute": "minecraft:generic.max_health",
+                "operation": "multiply_total",
+                "value": 0.6
+            },
+            {
+                "name": "Vast knockback resistance",
+                "attribute": "minecraft:generic.knockback_resistance",
+                "operation": "addition",
+                "value": 0.8
+            },
+            {
+                "name": "Vast movespeed multiplier",
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "multiply_total",
+                "value": 0.4
+            }
+        ]
+    },
+    "prscale_jumpmod": {
+        "type": "origins:modify_jump",
+        "modifier": {
+            "name": "Vast jump bonus",
+            "operation": "addition",
+            "value": 0.22
+        }
+    },
+    "hidden": false
+}

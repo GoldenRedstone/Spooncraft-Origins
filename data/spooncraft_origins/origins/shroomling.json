@@ -7,6 +7,8 @@
         "spooncraft_origins:poison_immunity",
         "spooncraft_origins:tiny",
         "spooncraft_origins:shroom_cap",
+        "prscaleorigins:micro_scale",
+        "prscaleorigins:micro_balance"
     ],
     "icon": {
         "item": "red_mushroom"

@@ -8,6 +8,7 @@
         "spooncraft_origins:bright_glowing",
         "spooncraft_origins:dark_weakness",
         "spooncraft_origins:scared_of_dark",
+        "prscaleorigins:tall_scale"
     ],
     "icon": {
         "item": "glowstone_dust"

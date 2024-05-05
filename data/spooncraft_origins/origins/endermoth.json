@@ -6,6 +6,7 @@
         "origins:ender_particles",
         "spooncraft_origins:edible_lights",
         "spooncraft_origins:nocturnal",
+        "prscaleorigins:tall_scale"
     ],
     "icon": {
         "item": "minecraft:redstone_lamp"

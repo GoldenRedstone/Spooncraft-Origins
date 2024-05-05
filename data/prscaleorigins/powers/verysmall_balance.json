@@ -1,0 +1,26 @@
+{
+    "name": "Little",
+    "description": "Small, sneaky, and very bouncy.",
+    "type": "origins:action_on_callback",
+    "entity_action_added": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "scale multiply pehkui:visibility .65",
+                "permission_level": 4
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale multiply pehkui:falling .33",
+                "permission_level": 4
+            }
+        ]
+    },
+    "entity_action_removed": {
+        "type": "origins:execute_command",
+        "command": "scale reset",
+        "permission_level": 4
+    },
+    "hidden": false
+}

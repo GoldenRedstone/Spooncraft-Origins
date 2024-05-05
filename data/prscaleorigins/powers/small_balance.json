@@ -1,0 +1,34 @@
+{
+    "name": "Compact",
+    "description": "Difficult to notice, and better at surviving falls.",
+    "type": "origins:action_on_callback",
+    "entity_action_chosen": {
+        "type": "origins:and",
+        "actions": []
+    },
+    "execute_chosen_when_orb": true,
+    "entity_action_added": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "scale multiply pehkui:visibility .8",
+                "permission_level": 4
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale multiply pehkui:falling .66",
+                "permission_level": 4
+            }
+        ]
+    },
+    "entity_action_removed": {
+        "type": "origins:execute_command",
+        "command": "scale reset",
+        "permission_level": 4
+    },
+    "entity_action_respawned": {
+        "type": "origins:and",
+        "actions": []
+    }
+}

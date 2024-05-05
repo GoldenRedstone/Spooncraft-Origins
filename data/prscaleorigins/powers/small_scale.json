@@ -1,0 +1,51 @@
+{
+    "name": "Height",
+    "description": "You're small enough to sneak into a crawlspace.",
+    "type": "origins:action_on_callback",
+    "entity_action_added": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "scale multiply pehkui:eye_height .7",
+                "permission_level": 4
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale multiply pehkui:third_person 0.9",
+                "permission_level": 4
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale multiply pehkui:model_height .66",
+                "permission_level": 4
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale multiply pehkui:model_width .66",
+                "permission_level": 4
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale multiply pehkui:hitbox_height .66",
+                "permission_level": 4
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale multiply pehkui:hitbox_width .66",
+                "permission_level": 4
+            },
+            {
+                "type": "origins:execute_command",
+                "command": "scale multiply pehkui:projectiles .8",
+                "permission_level": 4
+            }
+        ]
+    },
+    "entity_action_removed": {
+        "type": "origins:execute_command",
+        "command": "scale reset",
+        "permission_level": 4
+    },
+    "hidden": false
+}

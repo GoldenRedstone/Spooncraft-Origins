@@ -1,0 +1,77 @@
+{
+    "name": "Towering",
+    "description": "Striding across the land with ease, sweeping away foes.",
+    "hidden": false,
+    "type": "origins:multiple",
+    "prscale_commands": {
+        "type": "origins:action_on_callback",
+        "execute_chosen_when_orb": true,
+        "entity_action_added": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale multiply pehkui:falling 0.7",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale multiply pehkui:knockback 1.5",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale multiply pehkui:reach 1.25",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale multiply pehkui:step_height 2",
+                    "permission_level": 4
+                },
+                {
+                    "type": "origins:execute_command",
+                    "command": "scale multiply pehkui:visibility 1.25",
+                    "permission_level": 4
+                }
+            ]
+        },
+        "entity_action_removed": {
+            "type": "origins:execute_command",
+            "command": "scale reset",
+            "permission_level": 4
+        }
+    },
+    "prscale_attributes": {
+        "type": "origins:attribute",
+        "modifiers": [
+            {
+                "attribute": "minecraft:generic.max_health",
+                "operation": "multiply_total",
+                "value": 0.4,
+                "name": "Towering max health multiplier"
+            },
+            {
+                "attribute": "minecraft:generic.knockback_resistance",
+                "operation": "addition",
+                "value": 0.6,
+                "name": "Towering knockback resistance"
+            },
+            {
+                "attribute": "minecraft:generic.movement_speed",
+                "operation": "multiply_total",
+                "value": 0.25,
+                "name": "Towering movespeed multiplier"
+            }
+        ],
+        "update_health": true
+    },
+    "prscale_jumpmod": {
+        "type": "origins:modify_jump",
+        "modifier": {
+            "operation": "addition",
+            "value": 0.16,
+            "name": "Towering jump bonus"
+        }
+    }
+}
