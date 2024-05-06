@@ -58,14 +58,15 @@ Created by GoldenRedstone
 
 ### Powers
 | Name | ID | Description (In-Game) | Description (Detailed) | Status |
-|---------------|----------------------------------------|----------------------------------------------------------------------|--------------------------------------------------------------|------------------|
+|---------------|----------------------------------------|----------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------|------------------|
 | Amphibious | `spooncraft:water_breathing` | *You can breathe underwater and on land.* | | Fully Functional |
-| Wet Eyes | `origins:water_vision` | *Your vision underwater is perfect.* | | Fully Functional |
-| Aqua Affinity | `origins:aqua_affinity` | *You may break blocks underwater as others do on land.* | | Fully Functional |
-| Fins | `origins:swim_speed` | *Your underwater speed is increased.* | | Fully Functional |
-| Like Water | `origins:like_water` | *When underwater, you do not sink to the ground unless you want to.* | | Fully Functional |
+| Wet Eyes | `origins:water_vision` | *Your vision underwater is perfect.* | You can see perfectly underwater. This ability can be toggled with the Primary Active power key (default to G). | Fully Functional |
+| Aqua Affinity | `origins:aqua_affinity` | *You may break blocks underwater as others do on land.* | You can break blocks underwater without problems. | Fully Functional |
+| Fins | `origins:swim_speed` | *Your underwater speed is increased.* | You swim faster. | Fully Functional |
+| Like Water | `origins:like_water` | *When underwater, you do not sink to the ground unless you want to.* | You will only sink in water if you have downwards velocity. Pressing space will prevent sinking. | Fully Functional |
 | Clumsy | `spooncraft_origins:slow_out_of_water` | *You move much slower out of water.* | Player walk speed is reduced by 30% when not touching water. | Fully Functional |
 | Tricky Tail | `spooncraft_origins:no_lower_armour` | *Your tail gets in the way of boots and leggings.* | Player cannot wear boots or leggings. | Fully Functional |
+| *hidden* | `spooncraft_origins:bubbles` | | The player emits bubble particles | Testing Required |
 
 ## Wendigo  
 `spooncraft_origins:wendigo`  
@@ -102,3 +103,24 @@ Selected by OSHA
 | Tiny Body | `spooncraft_origins:tiny` | *You are much smaller than a human and have the health and reach to match.* | Max health is decreased by 5 hearts. Reach is decreased by 1.5 blocks. | Fully Functional |
 | *hidden* | `prscaleorigins:micro_scale` | | Sets player scale to approximately 0.3x. | Fully Functional |
 | *hidden* | `prscaleorigins:micro_balance` | | Decreases the range at which mobs can detect the player | Fully Functional |
+
+## Axolotl  
+`spooncraft_origins:axolotl`  
+Designed by Shard  
+Created by GoldenRedstone  
+*Description*  
+
+### Powers
+| Name | ID | Description (In-Game) | Description (Detailed) | Status |
+|---------------|----------------------------------------|----------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|
+| Amphibious | `spooncraft:water_breathing` | *You can breathe underwater and on land.* | | Fully Functional |
+| Play Dead | `spooncraft_origins:active_regen` | *You can play dead to regenerate some health.* | Pressing the key (default G) will gives regeneration III for 10 seconds, resistance III for 10 seconds, and slowness V for 15 seconds. Ability recharges in 15 seconds. | Fully Functional |
+| Wet Eyes | `origins:water_vision` | *Your vision underwater is perfect.* | You can see perfectly underwater. This ability can be toggled with the Primary Active power key (default to G). | Fully Functional |
+| Aqua Affinity | `origins:aqua_affinity` | *You may break blocks underwater as others do on land.* | You can break blocks underwater without problems. | Fully Functional |
+| Fins | `origins:swim_speed` | *Your underwater speed is increased.* | | Fully Functional |
+| Like Water | `origins:like_water` | *When underwater, you do not sink to the ground unless you want to.* | You will only sink in water if you have downwards velocity. Pressing space will prevent sinking. | Fully Functional |
+| Clumsy | `spooncraft_origins:slow_out_of_water` | *You move much slower out of water.* | Player walk speed is reduced by 30% when not touching water. | Fully Functional |
+| Freshwater | | | | Not Implemented |
+| Carnivore | `origins:carnivore` | Your diet is restricted to meat, you can't eat vegetables. | Player can only eat food items defined in the tags `origins:meat` or `origins:ignore_diet`. | Fully Functional |
+| *hidden* | `prscaleorigins:short_scale` | | Player model is visually 10% shorter. | Fully Functional |
+| *hidden* | `spooncraft_origins:bubbles` | | The player emits bubble particles | Testing Required |

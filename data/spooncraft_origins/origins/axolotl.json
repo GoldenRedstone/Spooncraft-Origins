@@ -1,0 +1,19 @@
+{
+    "name": "Axolotl",
+    "powers": [
+        "spooncraft_origins:water_breathing",
+        "spooncraft_origins:active_regen",
+        "origins:water_vision",
+        "origins:aqua_affinity",
+        "origins:swim_speed",
+        "origins:aquatic",
+        "spooncraft_origins:nocturnal",
+        "origins:carnivore",
+        "prscaleorigins:short_scale",
+        "spooncraft_origins:bubbles"
+    ],
+    "icon": {
+        "item": "minecraft:trident"
+    },
+    "impact": 2
+}

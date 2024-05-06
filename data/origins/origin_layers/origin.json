@@ -6,7 +6,8 @@
         "spooncraft_origins:atlantian",
         "spooncraft_origins:wendigo",
         "spooncraft_origins:spoonling",
-        "rat:rat"
+        "rat:rat",
+        "spooncraft_origins:axolotl"
     ],
     "enabled": true
 }

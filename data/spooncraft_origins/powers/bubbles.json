@@ -1,4 +1,11 @@
 {
     "hidden": true,
-    "type": "origins:simple"
+    "type": "origins:particle",
+    "particle": "minecraft:bubble",
+    "frequency": 4,
+    "count": 1,
+    "speed": 0,
+    "offset_x": 0,
+    "offset_y": 0.5,
+    "offset_z": 0
 }

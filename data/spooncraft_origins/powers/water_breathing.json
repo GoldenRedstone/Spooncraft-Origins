@@ -1,4 +1,6 @@
 {
+    "name": "Amphibious",
+    "description": "You can breathe underwater and on land.",
     "condition": {
         "type": "origins:submerged_in",
         "fluid": "minecraft:water"
