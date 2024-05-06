@@ -1,0 +1,18 @@
+{
+    "name": "Climber",
+    "description": "Your rat body excells at getting around, allowing you to climb vertical surfaces",
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:collided_horizontally"
+            },
+            {
+                "type": "origins:power_active",
+                "power": "niilo_origin:niilo2"
+            }
+        ]
+    },
+    "type": "origins:climbing",
+    "allow_holding": true
+}

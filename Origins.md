@@ -28,7 +28,7 @@ Created by GoldenRedstone
 | Acrobatics | `origins:fall_immunity` | *You never take fall damage, no matter from which height you fall.* | The player does not take any fall damage. | Fully Functional |
 | Decomposer | spooncraft_origins:bonemeal | Your body produces natural compost. | The player spontaneously produces bonemeal at when damaged. | Fully Functional |
 | Antibiotic | spooncraft_origins:poison_immunity | You are immune to poison | Immunity to poison. | Fully Functional |
-| Tiny Body | `spooncraft_origins:tiny` | *You are much smaller than a human and have the health and reach to match.* | Max health is decreased by 50%. Reach is decreased by 1.5 blocks. | Testing Required |
+| Tiny Body | `spooncraft_origins:tiny` | *You are much smaller than a human and have the health and reach to match.* | Max health is decreased by 50%. Reach is decreased by 1.5 blocks. | Fully Functional |
 | *hidden* | `prscaleorigins:micro_scale` | | Sets player scale to approximately 0.3x. | Fully Functional |
 | *hidden* | `prscaleorigins:micro_balance` | | Decreases the range at which mobs can detect the player | Fully Functional |
 
@@ -88,18 +88,17 @@ Created by GoldenRedstone
 `rat:rat`  
 Created by mamamaxi  
 Selected by OSHA  
-*Crazy? I was crazy once, they put me in a room...  
+*Crazy? I was crazy once, they put me in a room...*  
 
 ### Powers
 | Name | ID | Description (In-Game) | Description (Detailed) | Status |
-|---------------------|--------------------------------|-----------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|------------------|
+|------------------|--------------------------------|-----------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|------------------|
 | Little Companion | `rat:pickup` | *Other players can scoop you up!* | | Testing Required |
 | Speedy | `spooncraft_origins:speedy` | | Player speed increased by 50% | Fully Functional |
 | Acrobatics | `origins:fall_immunity` | *You never take fall damage, no matter from which height you fall.* | The player does not take any fall damage. | Fully Functional |
 | bubwonic pwague | `rat:bubwonic_pwagueowo` | *average 1347-1351 rat vibin in asia and europe's streets (colorized)* | Deals extra damage to poisoned enemies. Heals 1 heart when hitting an enemy. Player is immune to poison. | Fully Functional |
-| *hidden* | rat:ratpoisonbar | | | Fully Functional |
-| *hidden* | rat:poison_accumulation | | | Fully Functional |
-| i dont feel so good | rat:plagonify | *use primary key to become the true rat you are* | Using the primary key gives poison to nearby entities. | Fully Functional |
-| Tiny Body | `spooncraft_origins:tiny` | *You are much smaller than a human and have the health and reach to match.* | Max health is decreased by 50%. Reach is decreased by 1.5 blocks. | Fully Functional |
+| Rider | rat:rider | You can climb onto just about anything or anyone. | | Testing Required |
+| Climber | rat:climb | Your rat body excells at getting around, allowing you to climb vertical surfaces. | | Testing Required |
+| Tiny Body | `spooncraft_origins:tiny` | *You are much smaller than a human and have the health and reach to match.* | Max health is decreased by 5 hearts. Reach is decreased by 1.5 blocks. | Fully Functional |
 | *hidden* | `prscaleorigins:micro_scale` | | Sets player scale to approximately 0.3x. | Fully Functional |
 | *hidden* | `prscaleorigins:micro_balance` | | Decreases the range at which mobs can detect the player | Fully Functional |
