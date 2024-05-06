@@ -12,7 +12,7 @@
                         "type": "origins:light_level",
                         "light_type": "block",
                         "comparison": "<=",
-                        "compare_to": 7
+                        "compare_to": 3
                     }
                 },
                 {
@@ -47,7 +47,7 @@
                         "type": "origins:light_level",
                         "light_type": "block",
                         "comparison": "<=",
-                        "compare_to": 7
+                        "compare_to": 3
                     }
                 },
                 {
@@ -82,7 +82,7 @@
                         "type": "origins:light_level",
                         "light_type": "block",
                         "comparison": "<=",
-                        "compare_to": 7
+                        "compare_to": 3
                     }
                 },
                 {
@@ -104,7 +104,7 @@
         "type": "origins:modify_damage_dealt",
         "modifier": {
             "operation": "addition",
-            "value": -6
+            "value": -4
         }
     },
     "speed": {
@@ -117,7 +117,7 @@
                         "type": "origins:light_level",
                         "light_type": "block",
                         "comparison": "<=",
-                        "compare_to": 7
+                        "compare_to": 3
                     }
                 },
                 {

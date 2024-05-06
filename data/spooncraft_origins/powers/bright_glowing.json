@@ -2,35 +2,17 @@
     "name": "Bright Presence",
     "hidden": true,
     "condition": {
-        "type": "origins:or",
-        "conditions": [
-            {
-                "type": "origins:in_block",
-                "block_condition": {
-                    "type": "origins:light_level",
-                    "light_type": "block",
-                    "comparison": ">=",
-                    "compare_to": 11
-                }
-            },
-            {
-                "type": "origins:and",
-                "conditions": [
-                    {
-                        "type": "origins:brightness",
-                        "comparison": ">=",
-                        "compare_to": 1
-                    },
-                    {
-                        "type": "origins:daytime"
-                    }
-                ]
-            }
-        ]
+        "type": "origins:in_block",
+        "block_condition": {
+            "type": "origins:light_level",
+            "light_type": "block",
+            "comparison": ">=",
+            "compare_to": 11
+        }
     },
     "type": "origins:self_glow",
     "use_teams": false,
     "red": 1,
-    "green": 0.7,
-    "blue": 0.3
+    "green": 0.75,
+    "blue": 0.25
 }

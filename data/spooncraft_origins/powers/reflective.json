@@ -24,7 +24,6 @@
                             "compare_to": 0.35
                         },
                         {
-                            "inverted": true,
                             "type": "origins:daytime"
                         }
                     ]

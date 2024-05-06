@@ -21,10 +21,9 @@
                         {
                             "type": "origins:brightness",
                             "comparison": ">=",
-                            "compare_to": 0.3
+                            "compare_to": 0.35
                         },
                         {
-                            "inverted": true,
                             "type": "origins:daytime"
                         }
                     ]
@@ -56,10 +55,9 @@
                         {
                             "type": "origins:brightness",
                             "comparison": ">=",
-                            "compare_to": 0.3
+                            "compare_to": 0.35
                         },
                         {
-                            "inverted": true,
                             "type": "origins:daytime"
                         }
                     ]
@@ -91,10 +89,9 @@
                         {
                             "type": "origins:brightness",
                             "comparison": ">=",
-                            "compare_to": 0.3
+                            "compare_to": 0.35
                         },
                         {
-                            "inverted": true,
                             "type": "origins:daytime"
                         }
                     ]
@@ -104,7 +101,7 @@
         "type": "origins:modify_damage_dealt",
         "modifier": {
             "operation": "addition",
-            "value": 5
+            "value": 4
         }
     },
     "speed": {
@@ -126,10 +123,9 @@
                         {
                             "type": "origins:brightness",
                             "comparison": ">=",
-                            "compare_to": 0.3
+                            "compare_to": 0.35
                         },
                         {
-                            "inverted": true,
                             "type": "origins:daytime"
                         }
                     ]
