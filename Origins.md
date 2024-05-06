@@ -46,7 +46,7 @@ Created by GoldenRedstone
 | Pollinate | | | | Not Implemented |
 | Nocturnal | `spooncraft_origins:nocturnal` | *You walk slightly faster during the night and slower during the day.* | Player speed is increased by 15% during the night, and reduced by 30% while in direct sunlight. | Fully Functional |
 | Hydrophobia | `origins:water_vulnerability` | *You receive damage over time while in contact with water.* | You receive damage while in contact with water. The damage can be delayed with the water protection enchantment. | Fully Functional |
-| Light Eater | `spooncraft_origins:edible_lights` | *You can only eat light sources.* | The player cannot eat regular food. The player can eat light sources. Hunger is restored based on the approximate light level of the food. | Not Functional |
+| Light Eater | `spooncraft_origins:edible_lights` | *You can only eat light sources.* | The player cannot eat regular food. The player can eat light sources. Hunger is restored based on the approximate light level of the food. | Fully Functional |
 | *hidden* | `prscaleorigins:tall_scale` | | Player model is visually 10% taller. | Fully Functional |
 | *hidden* | `origins:ender_particles` | | Player emits ender themed particles. | Fully Functional |
 

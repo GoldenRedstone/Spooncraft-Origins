@@ -2,112 +2,167 @@
     "name": "Light Eater",
     "description": "You can only eat light sources.",
     "type": "origins:multiple",
-    "prevent": {
-        "type": "origins:simple"
-    },
     "lights_1": {
-        "type": "origins:edible_item",
+        "type": "apugli:edible_item",
         "item_condition": {
             "type": "origins:ingredient",
             "ingredient": {
-                "tag": "spooncraft_origins:lights/lights_1"
+                "tag": "spooncraft_origins:lights_1"
             }
         },
         "food_component": {
-            "hunger": 8,
+            "hunger": 9,
             "saturation": 12
         },
-        "consume_animation": "eat",
-        "priority": 0
+        "use_action": "eat",
+        "priority": 1
     },
     "lights_2": {
-        "type": "origins:edible_item",
+        "type": "apugli:edible_item",
         "item_condition": {
             "type": "origins:ingredient",
             "ingredient": {
-                "tag": "spooncraft_origins:lights/lights_2"
+                "tag": "spooncraft_origins:lights_2"
             }
         },
         "food_component": {
-            "hunger": 8,
+            "hunger": 9,
             "saturation": 7
         },
-        "consume_animation": "eat",
-        "priority": 0
+        "use_action": "eat",
+        "priority": 1
     },
     "lights_3": {
-        "type": "origins:edible_item",
+        "type": "apugli:edible_item",
         "item_condition": {
             "type": "origins:ingredient",
             "ingredient": {
-                "tag": "spooncraft_origins:lights/lights_3"
+                "tag": "spooncraft_origins:lights_3"
             }
         },
         "food_component": {
-            "hunger": 8,
+            "hunger": 9,
             "saturation": 3
         },
-        "consume_animation": "eat",
-        "priority": 0
+        "use_action": "eat",
+        "priority": 1
     },
     "lights_4": {
-        "type": "origins:edible_item",
+        "type": "apugli:edible_item",
         "item_condition": {
             "type": "origins:ingredient",
             "ingredient": {
-                "tag": "spooncraft_origins:lights/lights_4"
+                "tag": "spooncraft_origins:lights_4"
             }
         },
         "food_component": {
             "hunger": 5,
             "saturation": 6
         },
-        "consume_animation": "eat",
-        "priority": 0
+        "use_action": "eat",
+        "priority": 1
     },
     "lights_5": {
-        "type": "origins:edible_item",
+        "type": "apugli:edible_item",
         "item_condition": {
             "type": "origins:ingredient",
             "ingredient": {
-                "tag": "spooncraft_origins:lights/lights_5"
+                "tag": "spooncraft_origins:lights_5"
             }
         },
         "food_component": {
-            "hunger": 5,
+            "hunger": 6,
             "saturation": 2
         },
-        "consume_animation": "eat",
-        "priority": 0
+        "use_action": "eat",
+        "priority": 1
     },
     "lights_6": {
-        "type": "origins:edible_item",
+        "type": "apugli:edible_item",
         "item_condition": {
             "type": "origins:ingredient",
             "ingredient": {
-                "tag": "spooncraft_origins:lights/lights_6"
+                "tag": "spooncraft_origins:lights_6"
             }
         },
         "food_component": {
             "hunger": 2,
-            "saturation": 11
+            "saturation": 11,
+            "snack": true
         },
-        "consume_animation": "eat",
-        "priority": 0
+        "use_action": "eat",
+        "priority": 1
     },
     "lights_7": {
-        "type": "origins:edible_item",
+        "type": "apugli:edible_item",
         "item_condition": {
             "type": "origins:ingredient",
             "ingredient": {
-                "tag": "spooncraft_origins:lights/lights_7"
+                "tag": "spooncraft_origins:lights_7"
             }
         },
         "food_component": {
             "hunger": 2,
             "saturation": 1
         },
-        "consume_animation": "eat",
-        "priority": 0
+        "use_action": "eat",
+        "priority": 1
+    },
+    "lights_0": {
+        "type": "apugli:edible_item",
+        "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+                "tag": "spooncraft_origins:lights_0"
+            }
+        },
+        "food_component": {
+            "hunger": 5,
+            "saturation": 10,
+            "effects": [
+                {
+                    "effect": {
+                        "effect": "minecraft:absorption",
+                        "duration": 2400,
+                        "amplifier": 5,
+                        "show_particles": true,
+                        "show_icon": true
+                    },
+                    "chance": 1
+                },
+                {
+                    "effect": {
+                        "effect": "minecraft:regeneration",
+                        "duration": 600,
+                        "amplifier": 3,
+                        "show_particles": true,
+                        "show_icon": true
+                    },
+                    "chance": 1
+                },
+                {
+                    "effect": {
+                        "effect": "minecraft:fire_resistance",
+                        "duration": 6000,
+                        "amplifier": 0,
+                        "show_particles": true,
+                        "show_icon": true
+                    },
+                    "chance": 1
+                },
+                {
+                    "effect": {
+                        "effect": "minecraft:resistance",
+                        "duration": 6000,
+                        "amplifier": 0,
+                        "show_particles": true,
+                        "show_icon": true
+                    },
+                    "chance": 1
+                }
+            ]
+        },
+        "use_action": "eat",
+        "priority": 1
     }
 }
