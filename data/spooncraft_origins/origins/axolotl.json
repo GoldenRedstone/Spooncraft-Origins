@@ -10,10 +10,11 @@
         "spooncraft_origins:nocturnal",
         "origins:carnivore",
         "prscaleorigins:short_scale",
-        "spooncraft_origins:bubbles"
+        "spooncraft_origins:bubbles",
+        "spooncraft_origins:freshwater"
     ],
     "icon": {
-        "item": "minecraft:trident"
+        "item": "minecraft:axolotl_bucket"
     },
     "impact": 2
 }

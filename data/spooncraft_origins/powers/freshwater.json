@@ -1,0 +1,44 @@
+{
+    "name": "Freshwater",
+    "description": "Swimming in saltwater slowly damages you.",
+    "condition": {
+        "type": "origins:and",
+        "conditions": [
+            {
+                "type": "origins:fluid_height",
+                "fluid": "minecraft:water",
+                "comparison": ">=",
+                "compare_to": 1.2
+            },
+            {
+                "type": "origins:biome",
+                "biomes": [
+                    "minecraft:warm_ocean",
+                    "minecraft:lukewarm_ocean",
+                    "minecraft:deep_lukewarm_ocean",
+                    "minecraft:ocean",
+                    "minecraft:deep_ocean",
+                    "minecraft:cold_ocean",
+                    "minecraft:deep_cold_ocean",
+                    "minecraft:frozen_ocean",
+                    "minecraft:deep_frozen_ocean",
+                    "minecraft:beach",
+                    "minecraft:snowy_beach",
+                    "minecraft:stony_shore",
+                    "regions_unexplored:grassy_beach",
+                    "regions_unexplored:gravel_beach",
+                    "regions_unexplored:rocky_reef",
+                    "regions_unexplored:chalk_cliffs"
+                ]
+            }
+        ]
+    },
+    "type": "origins:damage_over_time",
+    "interval": 20,
+    "onset_delay": 1,
+    "damage": 2,
+    "damage_easy": 1,
+    "damage_type": "origins:hurt_by_water",
+    "protection_enchantment": "origins:water_protection",
+    "protection_effectiveness": 1
+}

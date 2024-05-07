@@ -1,0 +1,10 @@
+{
+    "name": "Vampire",
+    "powers": [
+        "spooncraft_origins:lifesteal",
+        "spooncraft_origins:nocturnal",
+        "origins:water_vulnerability",
+        "spooncraft_origins:smite_weakness"
+    ],
+    "impact": 0
+}

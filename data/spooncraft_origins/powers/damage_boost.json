@@ -1,0 +1,13 @@
+{
+    "name": "Sharp Claws",
+    "description": "You deal extra damage from melee attacks.",
+    "type": "origins:modify_damage_dealt",
+    "damage_condition": {
+        "type": "origins:type",
+        "damage_type": "player_attack"
+    },
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 0.2
+    }
+}

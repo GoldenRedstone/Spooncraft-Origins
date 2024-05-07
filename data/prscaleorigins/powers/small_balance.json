@@ -1,6 +1,7 @@
 {
     "name": "Compact",
     "description": "Difficult to notice, and better at surviving falls.",
+    "hidden": true,
     "type": "origins:action_on_callback",
     "entity_action_chosen": {
         "type": "origins:and",
