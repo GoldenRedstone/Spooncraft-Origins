@@ -99,8 +99,8 @@ Selected by OSHA
 | Speedy | `spooncraft_origins:speedy` | *You can run around faster than usual.* | Player speed increased by 50% | Fully Functional |
 | Acrobatics | `origins:fall_immunity` | *You never take fall damage, no matter from which height you fall.* | The player does not take any fall damage. | Fully Functional |
 | bubwonic pwague | `rat:bubwonic_pwagueowo` | *average 1347-1351 rat vibin in asia and europe's streets (colorized)* | Deals extra damage to poisoned enemies. Heals 1 heart when hitting an enemy. Player is immune to poison. | Fully Functional |
-| Rider | `rat:rider` | *You can climb onto just about anything or anyone.* | | Not Functional |
-| Climber | `rat:climb` | *Your rat body excells at getting around, allowing you to climb vertical surfaces.* | | Testing Required |
+| Rider | `rat:rider` | *You can climb onto just about anything or anyone.* | | Fully Functional |
+| Climber | `rat:climb` | *Your rat body excells at getting around, allowing you to climb vertical surfaces.* | | Fully Functional |
 | Tiny Body | `spooncraft_origins:tiny` | *You are much smaller than a human and have the health and reach to match.* | Max health is decreased by 5 hearts. Reach is decreased by 1.5 blocks. | Fully Functional |
 | *hidden* | `prscaleorigins:micro_scale` | | Sets player scale to approximately 0.3x. | Fully Functional |
 | *hidden* | `prscaleorigins:micro_balance` | | Decreases the range at which mobs can detect the player | Fully Functional |

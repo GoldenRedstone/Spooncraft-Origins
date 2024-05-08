@@ -1,18 +1,16 @@
 {
-    "name": "Climber",
-    "description": "Your rat body excells at getting around, allowing you to climb vertical surfaces",
-    "condition": {
-        "type": "origins:and",
-        "conditions": [
-            {
-                "type": "origins:collided_horizontally"
-            },
-            {
-                "type": "origins:power_active",
-                "power": "niilo_origin:niilo2"
-            }
-        ]
+    "name": "Rider",
+    "description": "You can climb onto just about anything, or anyone.",
+    "type": "origins:action_on_entity_use",
+    "bientity_action": {
+        "type": "origins:mount"
     },
-    "type": "origins:climbing",
-    "allow_holding": true
+    "item_condition": {
+        "type": "origins:empty"
+    },
+    "hands": [
+        "main_hand"
+    ],
+    "action_result": "success",
+    "priority": 0
 }
