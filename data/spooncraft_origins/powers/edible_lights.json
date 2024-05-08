@@ -124,7 +124,7 @@
                     "effect": {
                         "effect": "minecraft:absorption",
                         "duration": 2400,
-                        "amplifier": 5,
+                        "amplifier": 0,
                         "show_particles": true,
                         "show_icon": true
                     },
@@ -133,36 +133,42 @@
                 {
                     "effect": {
                         "effect": "minecraft:regeneration",
-                        "duration": 600,
-                        "amplifier": 3,
-                        "show_particles": true,
-                        "show_icon": true
-                    },
-                    "chance": 1
-                },
-                {
-                    "effect": {
-                        "effect": "minecraft:fire_resistance",
-                        "duration": 6000,
-                        "amplifier": 0,
-                        "show_particles": true,
-                        "show_icon": true
-                    },
-                    "chance": 1
-                },
-                {
-                    "effect": {
-                        "effect": "minecraft:resistance",
-                        "duration": 6000,
-                        "amplifier": 0,
+                        "duration": 100,
+                        "amplifier": 1,
                         "show_particles": true,
                         "show_icon": true
                     },
                     "chance": 1
                 }
-            ]
+            ],
+            "always_edible": true
         },
         "use_action": "eat",
         "priority": 1
+    },
+    "prevent": {
+        "type": "origins:prevent_item_use",
+        "item_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:food"
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "tag": "spooncraft_origins:lights"
+                    }
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "tag": "origins:ignore_diet"
+                    }
+                }
+            ]
+        }
     }
 }

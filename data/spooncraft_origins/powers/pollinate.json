@@ -1,0 +1,18 @@
+{
+    "name": "Pollinate",
+    "type": "origins:action_over_time",
+    "interval": 100,
+    "entity_action": {
+        "type": "origins:block_action_at",
+        "block_action": {
+            "type": "origins:offset",
+            "action": {
+                "type": "origins:bonemeal",
+                "effects": true
+            },
+            "x": 0,
+            "y": -1,
+            "z": 0
+        }
+    }
+}

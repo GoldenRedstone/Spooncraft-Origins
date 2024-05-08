@@ -1,0 +1,7 @@
+{
+    "name": "Moth Wings",
+    "description": "You have elytra wings without needing to equip any.",
+    "type": "origins:elytra_flight",
+    "render_elytra": true,
+    "texture_location": "spooncraft_origins:textures/moth_wings.png"
+}

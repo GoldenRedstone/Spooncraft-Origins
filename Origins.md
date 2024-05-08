@@ -42,11 +42,11 @@ Created by GoldenRedstone
 | Name | ID | Description (In-Game) | Description (Detailed) | Status |
 |---------------|------------------------------------|----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|
 | Teleportation | `origins:throw_ender_pearl` | *Whenever you want, you may throw an ender pearl which deals no damage, allowing you to teleport.* | You can throw an Ender Pearl-like projectile which teleports you without dealing Fall damage to you by pressing your Primary Active power key (default to G) | Fully Functional |
-| Moth Wings | `spooncraft_origins:moth_wings` | *You have elytra wings without needing to equip any.* | | Not Implemented |
-| Pollinate | | | | Not Implemented |
+| Moth Wings | `spooncraft_origins:moth_wings` | *You have elytra wings without needing to equip any.* | | Fully Functional |
+| Pollinate | | | | Not Functional |
 | Nocturnal | `spooncraft_origins:nocturnal` | *You walk slightly faster during the night and slower during the day.* | Player walk speed is increased by 15% during the night, and reduced by 30% while in direct sunlight. | Fully Functional |
 | Hydrophobia | `origins:water_vulnerability` | *You receive damage over time while in contact with water.* | You receive damage while in contact with water. The damage can be delayed with the water protection enchantment. | Fully Functional |
-| Light Eater | `spooncraft_origins:edible_lights` | *You can only eat light sources.* | The player cannot eat regular food. The player can eat light sources. Hunger is restored based on the approximate light level of the food. | Not Functional |
+| Light Eater | `spooncraft_origins:edible_lights` | *You can only eat light sources.* | The player cannot eat regular food. The player can eat light sources. Hunger is restored based on the approximate light level of the food. | Fully Functional |
 | *hidden* | `prscaleorigins:tall_scale` | | Player model is visually 10% taller. | Fully Functional |
 | *hidden* | `origins:ender_particles` | | Player emits ender themed particles. | Fully Functional |
 

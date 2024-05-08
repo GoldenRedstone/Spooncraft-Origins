@@ -2,11 +2,13 @@
     "name": "Endermoth",
     "powers": [
         "origins:throw_ender_pearl",
+        "spooncraft_origins:moth_wings",
         "origins:water_vulnerability",
-        "origins:ender_particles",
         "spooncraft_origins:edible_lights",
         "spooncraft_origins:nocturnal",
-        "prscaleorigins:tall_scale"
+        "origins:ender_particles",
+        "prscaleorigins:tall_scale",
+        "spooncraft_origins:pollinate"
     ],
     "icon": {
         "item": "minecraft:redstone_lamp"
