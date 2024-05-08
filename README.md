@@ -8,10 +8,14 @@ It currently adds:
 - Endermoth
 - Atlantian
 - Wendigo
+- Axolotl
 
 Coming soon:
 - Spoonling
-- Axolotl
+- Vampire
+- Flower Fairy
+- Duck
+
 
 ## [All Origins](Origins.md)
 For all origins, their powers, and the status of implementing them [see Origins.md](Origins.md)
