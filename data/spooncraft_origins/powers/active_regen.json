@@ -27,14 +27,14 @@
             },
             {
                 "effect": "minecraft:slowness",
-                "duration": 250,
+                "duration": 300,
                 "amplifier": 4,
                 "show_particles": true,
                 "show_icon": true
             }
         ]
     },
-    "cooldown": 250,
+    "cooldown": 600,
     "hud_render": {
         "should_render": true,
         "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",

@@ -4,7 +4,10 @@
         "spooncraft_origins:lifesteal",
         "spooncraft_origins:nocturnal",
         "origins:water_vulnerability",
-        "spooncraft_origins:smite_weakness"
+        "spooncraft_origins:smite_weakness",
+        "spooncraft_origins:blood_frenzy",
+        "spooncraft_origins:blood_frenzy_accumulate",
+        "spooncraft_origins:strength_on_kill"
     ],
-    "impact": 0
+    "impact": 1
 }

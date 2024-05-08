@@ -1,0 +1,38 @@
+{
+    "type": "origins:self_action_on_kill",
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:change_resource",
+                "resource": "spooncraft_origins:blood_frenzy",
+                "change": 1,
+                "operation": "add"
+            },
+            {
+                "type": "origins:delay",
+                "action": {
+                    "type": "origins:change_resource",
+                    "resource": "spooncraft_origins:blood_frenzy",
+                    "change": -1,
+                    "operation": "add"
+                },
+                "ticks": 1200
+            },
+            {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:speed",
+                    "duration": 100,
+                    "amplifier": 0,
+                    "show_particles": true,
+                    "show_icon": true
+                }
+            }
+        ]
+    },
+    "cooldown": 30,
+    "hud_render": {
+        "should_render": false
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "type": "origins:self_action_on_kill",
+    "entity_action": {
+        "type": "origins:delay",
+        "action": {
+            "type": "origins:if_else_list",
+            "actions": [
+                {
+                    "condition": {
+                        "type": "origins:and"
+                    }
+                }
+            ]
+        },
+        "ticks": 10
+    },
+    "cooldown": 1,
+    "hud_render": {
+        "should_render": false
+    }
+}
