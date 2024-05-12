@@ -15,7 +15,5 @@
     "icon": {
         "item": "minecraft:totem_of_undying"
     },
-    "order": 0,
-    "impact": 3,
-    "loading_priority": 10
+    "impact": 3
 }

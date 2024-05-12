@@ -36,7 +36,7 @@ Created by GoldenRedstone
 `spooncraft_origins:endermoth`  
 Designed by Archie  
 Created by GoldenRedstone  
-*Description*  
+*Intellegent and kind moths native to the End. ...  
 
 ### Powers
 | Name | ID | Description (In-Game) | Description (Detailed) | Status |
@@ -48,7 +48,7 @@ Created by GoldenRedstone
 | Hydrophobia | `origins:water_vulnerability` | *You receive damage over time while in contact with water.* | You receive damage while in contact with water. The damage can be delayed with the water protection enchantment. | Fully Functional |
 | Light Eater | `spooncraft_origins:edible_lights` | *You can only eat light sources.* | The player cannot eat regular food. The player can eat light sources. Hunger is restored based on the approximate light level of the food. | Fully Functional |
 | *hidden* | `prscaleorigins:tall_scale` | | Player model is visually 10% taller. | Fully Functional |
-| *hidden* | `origins:ender_particles` | | Player emits ender themed particles. | Fully Functional |
+| *hidden* | `origins:ender_particles` | | Player emits end themed particles. | Fully Functional |
 
 ## Atlantian  
 `spooncraft_origins:dolfijn`  
@@ -67,7 +67,7 @@ Created by GoldenRedstone
 | Waddle | `spooncraft_origins:slow_out_of_water` | *You move slower out of water.* | Player walk speed is reduced by 30% while not touching water. | Fully Functional |
 | Tricky Tail | `spooncraft_origins:no_lower_armour` | *Your tail gets in the way of boots and leggings.* | Player cannot wear boots or leggings. | Fully Functional |
 | *hidden* | `spooncraft_origins:bubbles` | | The player emits bubble particles. | Fully Functional |
-| *hidden* | `origins:aquatic` | | The player takes more damage from riptide tridents. | Fully Functional |
+| *hidden* | `origins:aquatic` | | The player takes more damage from impaling tridents. | Fully Functional |
 
 ## Wendigo  
 `spooncraft_origins:wendigo`  
@@ -77,13 +77,13 @@ Created by GoldenRedstone
 
 ### Powers
 | Name | ID | Description (In-Game) | Description (Detailed) | Status |
-|-----------------|------------------------------------|--------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|------------------|
+|-----------------|-------------------------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------|------------------|
 | Nocturnal | `spooncraft_origins:nocturnal` | *You walk slightly faster during the night and slower during the day.* | Player walk speed is increased by 15% during the night, and reduced by 30% while in direct sunlight. | Fully Functional |
-| Invisibility | `spooncraft_origins:invisibility` | *You are able to go invisible at will, but only while you are saturated enough to sprint.* | Toggling invisibility also enables `origins:phantomize_overlay` and `origins:hunger_over_time` | Not Implemented |
-| Fast Metabolism | `origins:hunger_over_time` | | | Not Functional |
+| Invisibility | `spooncraft_origins:phantomize` `origins:invisibility` `origins:hunger_over_time` `origins:phantomize_overlay` | *You are able to go invisible at will, but only while you are saturated enough to sprint.* | | Testing Required |
+| Fast Metabolism | `origins:hunger_over_time` | | | Testing Required |
 | Sharp Claws | `spooncraft_origins:damage_boost` | *You deal extra damage from melee attacks.* | Attacks from the player deal 20% additional damage. | Testing Required |
 | Slender Body | `origins:extra_reach` | *You can reach blocks and entities further away.* | The player can reach 1.5 blocks further away. | Fully Functional |
-| Blood Eater | `spooncraft_origins:raw_meat` | | Player can only eat raw meat, but it gives double food and saturation. | Not Implemented |
+| Blood Eater | `spooncraft_origins:raw_meat` | | Player can only eat raw meat, but it gives double food and saturation. | Not Functional |
 | Cold Blooded | `spooncraft_origins:fire_weakness` | *You take additional damage from flames.* | The player takes twice the damage from fire | Fully Functional |
 
 ## Rat  
@@ -125,7 +125,7 @@ Created by GoldenRedstone
 | Carnivore | `origins:carnivore` | *Your diet is restricted to meat, you can't eat vegetables.* | Player can only eat food items defined in the tags `origins:meat` or `origins:ignore_diet`. | Testing Required |
 | *hidden* | `prscaleorigins:short_scale` | | Player model is visually 10% shorter. | Fully Functional |
 | *hidden* | `spooncraft_origins:bubbles` | | The player emits bubble particles | Fully Functional |
-| *hidden* | `origins:aquatic` | | The player takes more damage from riptide tridents. | Fully Functional |
+| *hidden* | `origins:aquatic` | | The player takes more damage from impaling tridents. | Fully Functional |
 
 ## Vampire  
 `spooncraft_origins:vampire`  

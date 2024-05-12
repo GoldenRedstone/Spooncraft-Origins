@@ -8,7 +8,7 @@
                 "type": "origins:fluid_height",
                 "fluid": "minecraft:water",
                 "comparison": ">=",
-                "compare_to": 1
+                "compare_to": 0.8
             },
             {
                 "type": "origins:biome",

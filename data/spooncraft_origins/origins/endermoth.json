@@ -1,5 +1,6 @@
 {
     "name": "Endermoth",
+    "description": "Intellegent and kind moths native to the End. They have inherited endermens allergy to water and their ability to teleport.",
     "powers": [
         "origins:throw_ender_pearl",
         "spooncraft_origins:moth_wings",
@@ -11,7 +12,7 @@
         "spooncraft_origins:pollinate"
     ],
     "icon": {
-        "item": "minecraft:redstone_lamp"
+        "item": "nightlights:hanging_light_yellow"
     },
-    "impact": 2
+    "impact": 3
 }

@@ -11,7 +11,7 @@
         "prscaleorigins:tall_scale"
     ],
     "icon": {
-        "item": "glowstone_dust"
+        "item": "minecraft:glowstone"
     },
-    "impact": 3
+    "impact": 2
 }
