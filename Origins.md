@@ -36,7 +36,7 @@ Created by GoldenRedstone
 `spooncraft_origins:endermoth`  
 Designed by Archie  
 Created by GoldenRedstone  
-*Intellegent and kind moths native to the End. ...  
+*Intellegent and kind moths native to the End. They have inherited endermens allergy to water and their ability to teleport.*
 
 ### Powers
 | Name | ID | Description (In-Game) | Description (Detailed) | Status |
