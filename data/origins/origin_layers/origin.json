@@ -8,7 +8,9 @@
         "spooncraft_origins:spoonling",
         "rat:rat",
         "spooncraft_origins:axolotl",
-        "spooncraft_origins:vampire"
+        "spooncraft_origins:vampire",
+        "spooncraft_origins:flower_fairy",
+        "spooncraft_origins:duck"
     ],
     "enabled": true
 }

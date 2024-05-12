@@ -1,3 +1,16 @@
 {
-    "impact": 0
+    "name": "Flower Fairy",
+    "powers": [
+        "spooncraft_origins:fairy_wings",
+        "spooncraft_origins:pollinate",
+        "origins:fall_immunity",
+        "spooncraft_origins:small",
+        "spooncraft_origins:diurnal",
+        "prscaleorigins:small_scale",
+        "prscaleorigins:small_balance"
+    ],
+    "icon": {
+        "item": "botancia:cosmetic_blue_butterfly"
+    },
+    "impact": 1
 }

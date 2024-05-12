@@ -153,15 +153,15 @@ Created by GoldenRedstone
 
 ### Powers
 | Name | ID | Description (In-Game) | Description (Detailed) | Status |
-|-------------|----------------------------------------|-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|-----------------|
+|-------------|----------------------------------------|-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|------------------|
 | Fairy Wings | `spooncraft_origins:fairy_wings` | *You have elytra wings without needing to equip any.* | | Not Functional |
-| Pollinate | `spooncraft_origins:pollinate` | | | Not Implemented |
-| Sparkle | `spooncraft_origins:sparkle_particles` | *You sparkle which causes growth acceleration of nearby plants.* | | Not Implemented |
-| Acrobatics | `origins:fall_immunity` | *You never take fall damage, no matter from which height you fall.* | The player does not take any fall damage. | Not Functional |
-| Diurnal | `spooncraft_origins:diurnal` | *You walk slightly faster during the day and slower during the night.* | Player walk speed is increased by 15% during the day, and reduced by 30% while exposed to the sky at night. | Not Functional |
-| Tiny Body | `spooncraft_origins:tiny` | *You are much smaller than a human and have the health and reach to match.* | Max health is decreased by 50%. Reach is decreased by 1.5 blocks. | Not Functional |
-| *hidden* | `prscaleorigins:micro_scale` | | Sets player scale to approximately 30%. | Not Functional |
-| *hidden* | `prscaleorigins:micro_balance` | | Decreases the range at which mobs can detect the player. | Not Functional |
+| Pollinate | `spooncraft_origins:pollinate` | | | Testing Required |
+| Acrobatics | `origins:fall_immunity` | *You never take fall damage, no matter from which height you fall.* | The player does not take any fall damage. | Testing Required |
+| Diurnal | `spooncraft_origins:diurnal` | *You walk slightly faster during the day and slower during the night.* | Player walk speed is increased by 15% during the day, and reduced by 30% while exposed to the sky at night. | Testing Required |
+| Small Body | `spooncraft_origins:small` | *You are much smaller than a human and have the health and reach to match.* | Max health is decreased by 30%. Reach is decreased by 1 blocks. | Fully Functional |
+| *hidden* | `prscaleorigins:small_scale` | | Sets player scale to approximately 30%. | Fully Functional |
+| *hidden* | `prscaleorigins:small_balance` | | Decreases the range at which mobs can detect the player. | Fully Functional |
+| *hidden* | `spooncraft_origins:sparkle_particles` | | The player emits sparkle particles | Not Implemented |
 
 ## Duck  
 `spooncraft_origins:duck`  

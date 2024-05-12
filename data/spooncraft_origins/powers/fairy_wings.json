@@ -1,0 +1,6 @@
+{
+    "name": "Fairy Wings",
+    "description": "You have elytra wings without needing to equip any.",
+    "type": "origins:elytra_flight",
+    "render_elytra": true
+}
