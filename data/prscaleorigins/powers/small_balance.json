@@ -27,9 +27,5 @@
         "type": "origins:execute_command",
         "command": "scale reset",
         "permission_level": 4
-    },
-    "entity_action_respawned": {
-        "type": "origins:and",
-        "actions": []
     }
 }

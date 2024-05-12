@@ -1,5 +1,5 @@
 {
-    "name": "Clumsy",
+    "name": "Waddle",
     "description": "You move much slower out of water.",
     "condition": {
         "type": "origins:fluid_height",

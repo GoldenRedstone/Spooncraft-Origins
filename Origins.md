@@ -64,7 +64,7 @@ Created by GoldenRedstone
 | Aqua Affinity | `origins:aqua_affinity` | *You may break blocks underwater as others do on land.* | You can break blocks underwater without problems. | Fully Functional |
 | Fins | `origins:swim_speed` | *Your underwater speed is increased.* | You swim faster. | Fully Functional |
 | Like Water | `origins:like_water` | *When underwater, you do not sink to the ground unless you want to.* | You will only sink in water if you have downwards velocity. Pressing space will prevent sinking. | Fully Functional |
-| Clumsy | `spooncraft_origins:slow_out_of_water` | *You move slower out of water.* | Player walk speed is reduced by 30% while not touching water. | Fully Functional |
+| Waddle | `spooncraft_origins:slow_out_of_water` | *You move slower out of water.* | Player walk speed is reduced by 30% while not touching water. | Fully Functional |
 | Tricky Tail | `spooncraft_origins:no_lower_armour` | *Your tail gets in the way of boots and leggings.* | Player cannot wear boots or leggings. | Fully Functional |
 | *hidden* | `spooncraft_origins:bubbles` | | The player emits bubble particles. | Fully Functional |
 | *hidden* | `origins:aquatic` | | The player takes more damage from riptide tridents. | Fully Functional |
@@ -164,17 +164,18 @@ Created by GoldenRedstone
 | *hidden* | `prscaleorigins:micro_balance` | | Decreases the range at which mobs can detect the player. | Not Functional |
 
 ## Duck  
-`spooncraft_origins:vampire`  
+`spooncraft_origins:duck`  
 Designed by Ducky  
 Created by GoldenRedstone  
 *Description*  
 
 ### Powers
 | Name | ID | Description (In-Game) | Description (Detailed) | Status |
-|-----------------|----------------------------------------|---------------------------------------|---------------------------------------------------------------|-----------------|
-| Fins | `origins:swim_speed` | *Your underwater speed is increased.* | You swim faster. | Not Functional |
+|-----------------|----------------------------------------|------------------------------------------------------------------------|-----------------------------------------------------------------|------------------|
+| Fins | `origins:swim_speed` | *Your underwater speed is increased.* | You swim faster. | Fully Functional |
 | Deep Diver | | | | Not Implemented |
 | Graceful Decent | | | | Not Implemented |
-| Clumsy | `spooncraft_origins:slow_out_of_water` | *You move slower out of water.* | Player walk speed is reduced by 30% while not touching water. | Not Functional |
-| *hidden* | `prscaleorigins:small_scale` | | Sets player scale to approximately 66%. | Not Functional |
-| *hidden* | `prscaleorigins:small_balance` | | Decreases the range at which mobs can detect the player. | Not Functional |
+| Waddle | `spooncraft_origins:slow_out_of_water` | *You move slower out of water.* | Player walk speed is reduced by 30% while not touching water. | Fully Functional |
+| Small Body | `spooncraft_origins:small` | *You are smaller than a human and have the health and reach to match.* | Max health is decreased by 30%. Reach is decreased by 1 blocks. | Fully Functional |
+| *hidden* | `prscaleorigins:small_scale` | | Sets player scale to approximately 66%. | Fully Functional |
+| *hidden* | `prscaleorigins:small_balance` | | Decreases the range at which mobs can detect the player. | Fully Functional |

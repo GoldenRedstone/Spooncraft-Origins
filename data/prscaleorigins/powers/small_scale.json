@@ -19,27 +19,27 @@
             },
             {
                 "type": "origins:execute_command",
-                "command": "scale multiply pehkui:model_height .66",
+                "command": "scale multiply pehkui:model_height .5",
                 "permission_level": 4
             },
             {
                 "type": "origins:execute_command",
-                "command": "scale multiply pehkui:model_width .66",
+                "command": "scale multiply pehkui:model_width .5",
                 "permission_level": 4
             },
             {
                 "type": "origins:execute_command",
-                "command": "scale multiply pehkui:hitbox_height .66",
+                "command": "scale multiply pehkui:hitbox_height .6",
                 "permission_level": 4
             },
             {
                 "type": "origins:execute_command",
-                "command": "scale multiply pehkui:hitbox_width .66",
+                "command": "scale multiply pehkui:hitbox_width .6",
                 "permission_level": 4
             },
             {
                 "type": "origins:execute_command",
-                "command": "scale multiply pehkui:projectiles .8",
+                "command": "scale multiply pehkui:projectiles .7",
                 "permission_level": 4
             }
         ]

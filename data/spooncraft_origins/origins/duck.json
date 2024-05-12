@@ -1,0 +1,11 @@
+{
+    "name": "Duck",
+    "powers": [
+        "origins:swim_speed",
+        "spooncraft_origins:slow_out_of_water",
+        "spooncraft_origins:small",
+        "prscaleorigins:small_scale",
+        "prscaleorigins:small_balance"
+    ],
+    "impact": 1
+}
