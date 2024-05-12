@@ -1,5 +1,6 @@
 {
     "name": "Blood Frenzy",
+    "description": "Kill five mobs within quick succession to enter a blood frenzy. Drinking too much might make you sick.",
     "type": "origins:resource",
     "min": 0,
     "max": 7,
@@ -10,47 +11,11 @@
         "bar_index": 0
     },
     "max_action": {
-        "type": "origins:and",
-        "actions": [
-            {
-                "type": "origins:apply_effect",
-                "effects": [
-                    {
-                        "effect": "minecraft:regeneration",
-                        "duration": 600,
-                        "amplifier": 0,
-                        "show_particles": true,
-                        "show_icon": true
-                    },
-                    {
-                        "effect": "minecraft:speed",
-                        "duration": 600,
-                        "amplifier": 0,
-                        "show_particles": true,
-                        "show_icon": true
-                    },
-                    {
-                        "effect": "minecraft:strength",
-                        "duration": 600,
-                        "amplifier": 2,
-                        "show_particles": true,
-                        "show_icon": true
-                    }
-                ]
-            },
-            {
-                "type": "origins:spawn_particles",
-                "particle": "minecraft:damage_indicator",
-                "count": 100,
-                "spread": {
-                    "x": 5,
-                    "y": 5,
-                    "z": 5
-                },
-                "offset_x": 0,
-                "offset_y": 0.5,
-                "offset_z": 0
-            }
-        ]
+        "type": "origins:chance",
+        "chance": 0.25,
+        "action": {
+            "type": "origins:execute_command",
+            "command": "execute at @s run function spooncraft_origins:blood_explode"
+        }
     }
 }

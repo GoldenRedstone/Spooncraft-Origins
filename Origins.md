@@ -135,14 +135,15 @@ Created by GoldenRedstone
 
 ### Powers
 | Name | ID | Description (In-Game) | Description (Detailed) | Status |
-|--------------|---------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|
-| Bloodsucker | `spooncraft_origin:blood_strength` | *You get stronger when killing enemies.* | Blood can only be taken every 1.5 seconds. | Not Functional |
-| Bloodfrenzy | `spooncraft_origins:blood_frenzy` `spooncraft_origins:blood_frenzy_accumulator` | *Kill five mobs within quick succession to enter a blood frenzy. Drinking too much might make you sick.* | Killing five mobs within quick succession gives the player +100% speed, +50% damage, and +100% regeneration for 30 seconds. Accumulating 15 kills in 30 seconds causes the player to explode. | Not Functional |
+|--------------|---------------------------------------------------------------------------------|----------------------------------------------------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|
+| Bloodsucker | `spooncraft_origin:strength_on_kill` | *You get stronger when killing enemies.* | Player gets strength, speed, regeneration, and resistance depending on the number of kills. Effects last 30 seconds. Each kill resets the duration. Blood can only be taken every 1.5 seconds. | Fully Functional |
+| Bloodfrenzy | `spooncraft_origins:blood_frenzy` `spooncraft_origins:blood_frenzy_accumulator` | *Kill five mobs within quick succession to enter a blood frenzy. Drinking too much might make you sick.* | Killing five mobs within quick succession gives the player +100% speed, +50% damage, and +100% regeneration for 30 seconds. | Fully Functional |
 | Lifesteal | `spooncraft_origins:lifesteal` | *Damaging an enemy restores some of your health and hunger.* | The player is healed by 1 heart and 1 food shank whenever they deal damage to an enemy. Cooldown is 5 seconds. | Fully Functional |
 | Nocturnal | `spooncraft_origins:nocturnal` | *You walk slightly faster during the night and slower during the day.* | Player walk speed is increased by 15% during the night, and reduced by 30% while in direct sunlight. | Fully Functional |
 | Hydrophobia | `origins:water_vulnerability` | *You receive damage over time while in contact with water.* | The player receives damage while in contact with water. The damage can be delayed with the water protection enchantment. | Fully Functional |
 | Cold Blooded | `spooncraft_origins:fire_weakness` | *You take additional damage from flames.* | The player takes twice the damage from fire. | Fully Functional |
 | Undead | `spooncraft_origins:undead` | | Player burns in daylight if not wearing a helmet. Heals with damage potions and is damaged by healing potions. | Not Implemented |
+| *hidden* | `spooncraft_origins:smite_weakness` | | Player takes additional damage from smite. | Testing Required |
 
 ## Flower Fairy  
 `spooncraft_origins:flower_fairy`  

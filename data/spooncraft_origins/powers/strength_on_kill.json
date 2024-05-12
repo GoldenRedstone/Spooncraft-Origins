@@ -1,4 +1,6 @@
 {
+    "name": "Bloodsucker",
+    "description": "You get stronger when killing enemies.",
     "type": "origins:self_action_on_kill",
     "entity_action": {
         "type": "origins:delay",
@@ -7,7 +9,50 @@
             "actions": [
                 {
                     "condition": {
-                        "type": "origins:and"
+                        "type": "origins:resource",
+                        "resource": "spooncraft_origins:blood_frenzy",
+                        "comparison": ">=",
+                        "compare_to": 6
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "execute at @s run function spooncraft_origins:blood_strength6"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:resource",
+                        "resource": "spooncraft_origins:blood_frenzy",
+                        "comparison": ">=",
+                        "compare_to": 5
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "execute at @s run function spooncraft_origins:blood_strength5"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:resource",
+                        "resource": "spooncraft_origins:blood_frenzy",
+                        "comparison": ">=",
+                        "compare_to": 3
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "execute at @s run function spooncraft_origins:blood_strength3"
+                    }
+                },
+                {
+                    "condition": {
+                        "type": "origins:resource",
+                        "resource": "spooncraft_origins:blood_frenzy",
+                        "comparison": ">=",
+                        "compare_to": 1
+                    },
+                    "action": {
+                        "type": "origins:execute_command",
+                        "command": "execute at @s run function spooncraft_origins:blood_strength1"
                     }
                 }
             ]

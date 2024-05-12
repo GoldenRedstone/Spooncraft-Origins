@@ -1,5 +1,6 @@
 {
     "name": "Lifesteal",
+    "description": "Damaging an enemy restores some of your health and hunger.",
     "type": "origins:self_action_on_hit",
     "damage_condition": {
         "type": "origins:amount",
@@ -36,11 +37,11 @@
             {
                 "type": "origins:feed",
                 "food": 2,
-                "saturation": 2
+                "saturation": 0
             }
         ]
     },
-    "cooldown": 70,
+    "cooldown": 100,
     "hud_render": {
         "should_render": true,
         "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
