@@ -1,0 +1,145 @@
+{
+    "name": "Levitation",
+    "description": "Using your telekinesis on yourself, you are able to negate the effect of gravity on yourself for 5 seconds (jump while in the air)",
+    "type": "origins:multiple",
+    "levitate_already": {
+        "type": "origins:resource",
+        "min": 0,
+        "max": 2,
+        "start_value": 0,
+        "max_action": {
+            "type": "origins:apply_effect",
+            "effect": {
+                "effect": "minecraft:hunger",
+                "duration": 100,
+                "amplifier": 0,
+                "show_particles": false,
+                "show_icon": true
+            }
+        }
+    },
+    "display": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "telekinetic:telekinetic_levitation_levitate_already",
+                    "comparison": "==",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:elytra_flight_possible",
+                    "check_state": true,
+                    "check_abilities": false
+                }
+            ]
+        },
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:and",
+            "actions": [
+                {
+                    "type": "origins:change_resource",
+                    "resource": "telekinetic:telekinetic_levitation_levitate_already",
+                    "change": 1,
+                    "operation": "set"
+                },
+                {
+                    "type": "origins:delay",
+                    "action": {
+                        "type": "origins:change_resource",
+                        "resource": "telekinetic:telekinetic_levitation_levitate_already",
+                        "change": 2,
+                        "operation": "set"
+                    },
+                    "ticks": 100
+                },
+                {
+                    "type": "origins:add_velocity",
+                    "y": 0,
+                    "space": "world",
+                    "client": true,
+                    "server": true,
+                    "set": true
+                },
+                {
+                    "type": "origins:set_fall_distance",
+                    "fall_distance": 0
+                }
+            ]
+        },
+        "key": {
+            "key": "key.jump"
+        }
+    },
+    "disablegravity": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "telekinetic:telekinetic_levitation_levitate_already",
+                    "comparison": "==",
+                    "compare_to": 1
+                }
+            ]
+        },
+        "type": "origins:modify_falling",
+        "velocity": 0,
+        "take_fall_damage": false
+    },
+    "enablegravity": {
+        "condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:resource",
+                    "resource": "telekinetic:telekinetic_levitation_levitate_already",
+                    "comparison": "==",
+                    "compare_to": 0
+                },
+                {
+                    "type": "origins:resource",
+                    "resource": "telekinetic:telekinetic_levitation_levitate_already",
+                    "comparison": "==",
+                    "compare_to": 2
+                }
+            ]
+        },
+        "type": "origins:modify_falling",
+        "velocity": 0.08,
+        "take_fall_damage": true
+    },
+    "onground": {
+        "type": "origins:action_on_land",
+        "entity_action": {
+            "type": "origins:change_resource",
+            "resource": "telekinetic:telekinetic_levitation_levitate_already",
+            "change": 0,
+            "operation": "set"
+        }
+    },
+    "onjoin": {
+        "type": "origins:action_on_callback",
+        "entity_action_chosen": {
+            "type": "origins:change_resource",
+            "resource": "telekinetic:telekinetic_levitation_levitate_already",
+            "change": 0,
+            "operation": "set"
+        },
+        "execute_chosen_when_orb": true,
+        "entity_action_added": {
+            "type": "origins:change_resource",
+            "resource": "telekinetic:telekinetic_levitation_levitate_already",
+            "change": 1,
+            "operation": "add"
+        },
+        "entity_action_respawned": {
+            "type": "origins:change_resource",
+            "resource": "telekinetic:telekinetic_levitation_levitate_already",
+            "change": 0,
+            "operation": "set"
+        }
+    }
+}

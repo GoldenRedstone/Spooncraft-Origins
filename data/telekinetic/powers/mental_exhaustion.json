@@ -1,0 +1,5 @@
+{
+    "name": "Mental Exhaustion",
+    "description": "Whenever you use an active ability, because of the mental strain you become hungry for 15 seconds.",
+    "type": "origins:simple"
+}

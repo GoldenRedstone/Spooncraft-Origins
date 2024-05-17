@@ -1,0 +1,261 @@
+{
+    "name": "Telekinesis",
+    "description": "Using your mind, you are able to move entities (right click with an empty hand)",
+    "type": "origins:multiple",
+    "control": {
+        "condition": {
+            "type": "origins:equipped_item",
+            "equipment_slot": "mainhand",
+            "item_condition": {
+                "type": "origins:empty"
+            }
+        },
+        "type": "origins:active_self",
+        "entity_action": {
+            "type": "origins:raycast",
+            "distance": 10,
+            "block": false,
+            "entity": true,
+            "shape_type": "outline",
+            "fluid_handling": "any",
+            "bientity_action": {
+                "type": "origins:and",
+                "actions": [
+                    {
+                        "type": "origins:target_action",
+                        "action": {
+                            "type": "origins:clear_effect",
+                            "effect": "minecraft:glowing"
+                        }
+                    },
+                    {
+                        "type": "origins:actor_action",
+                        "action": {
+                            "type": "origins:execute_command",
+                            "command": "tag @e remove Grabbed"
+                        }
+                    },
+                    {
+                        "type": "origins:target_action",
+                        "action": {
+                            "type": "origins:execute_command",
+                            "command": "tag @s add Grabbed"
+                        }
+                    },
+                    {
+                        "type": "origins:target_action",
+                        "action": {
+                            "type": "origins:apply_effect",
+                            "effect": {
+                                "effect": "minecraft:glowing",
+                                "duration": 2,
+                                "amplifier": 0,
+                                "show_particles": true,
+                                "show_icon": true
+                            }
+                        }
+                    },
+                    {
+                        "type": "origins:if_else_list",
+                        "actions": [
+                            {
+                                "condition": {
+                                    "type": "origins:actor_condition",
+                                    "condition": {
+                                        "type": "origins:resource",
+                                        "resource": "telekinetic:push_pull_distance",
+                                        "comparison": "==",
+                                        "compare_to": 1
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:actor_action",
+                                    "action": {
+                                        "type": "origins:execute_command",
+                                        "command": "tp @e[tag=Grabbed] ^ ^1 ^1"
+                                    }
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:actor_condition",
+                                    "condition": {
+                                        "type": "origins:resource",
+                                        "resource": "telekinetic:push_pull_distance",
+                                        "comparison": "==",
+                                        "compare_to": 2
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:actor_action",
+                                    "action": {
+                                        "type": "origins:execute_command",
+                                        "command": "tp @e[tag=Grabbed] ^ ^1 ^2"
+                                    }
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:actor_condition",
+                                    "condition": {
+                                        "type": "origins:resource",
+                                        "resource": "telekinetic:push_pull_distance",
+                                        "comparison": "==",
+                                        "compare_to": 3
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:actor_action",
+                                    "action": {
+                                        "type": "origins:execute_command",
+                                        "command": "tp @e[tag=Grabbed] ^ ^1 ^3"
+                                    }
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:actor_condition",
+                                    "condition": {
+                                        "type": "origins:resource",
+                                        "resource": "telekinetic:push_pull_distance",
+                                        "comparison": "==",
+                                        "compare_to": 4
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:actor_action",
+                                    "action": {
+                                        "type": "origins:execute_command",
+                                        "command": "tp @e[tag=Grabbed] ^ ^1 ^4"
+                                    }
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:actor_condition",
+                                    "condition": {
+                                        "type": "origins:resource",
+                                        "resource": "telekinetic:push_pull_distance",
+                                        "comparison": "==",
+                                        "compare_to": 5
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:actor_action",
+                                    "action": {
+                                        "type": "origins:execute_command",
+                                        "command": "tp @e[tag=Grabbed] ^ ^1 ^5"
+                                    }
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:actor_condition",
+                                    "condition": {
+                                        "type": "origins:resource",
+                                        "resource": "telekinetic:push_pull_distance",
+                                        "comparison": "==",
+                                        "compare_to": 6
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:actor_action",
+                                    "action": {
+                                        "type": "origins:execute_command",
+                                        "command": "tp @e[tag=Grabbed] ^ ^1 ^6"
+                                    }
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:actor_condition",
+                                    "condition": {
+                                        "type": "origins:resource",
+                                        "resource": "telekinetic:push_pull_distance",
+                                        "comparison": "==",
+                                        "compare_to": 7
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:actor_action",
+                                    "action": {
+                                        "type": "origins:execute_command",
+                                        "command": "tp @e[tag=Grabbed] ^ ^1 ^7"
+                                    }
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:actor_condition",
+                                    "condition": {
+                                        "type": "origins:resource",
+                                        "resource": "telekinetic:push_pull_distance",
+                                        "comparison": "==",
+                                        "compare_to": 8
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:actor_action",
+                                    "action": {
+                                        "type": "origins:execute_command",
+                                        "command": "tp @e[tag=Grabbed] ^ ^1 ^8"
+                                    }
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:actor_condition",
+                                    "condition": {
+                                        "type": "origins:resource",
+                                        "resource": "telekinetic:push_pull_distance",
+                                        "comparison": "==",
+                                        "compare_to": 9
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:actor_action",
+                                    "action": {
+                                        "type": "origins:execute_command",
+                                        "command": "tp @e[tag=Grabbed] ^ ^1 ^9"
+                                    }
+                                }
+                            },
+                            {
+                                "condition": {
+                                    "type": "origins:actor_condition",
+                                    "condition": {
+                                        "type": "origins:resource",
+                                        "resource": "telekinetic:push_pull_distance",
+                                        "comparison": "==",
+                                        "compare_to": 10
+                                    }
+                                },
+                                "action": {
+                                    "type": "origins:actor_action",
+                                    "action": {
+                                        "type": "origins:execute_command",
+                                        "command": "tp @e[tag=Grabbed] ^ ^1 ^10"
+                                    }
+                                }
+                            }
+                        ]
+                    }
+                ]
+            },
+            "hit_action": {
+                "type": "origins:apply_effect",
+                "effect": {
+                    "effect": "minecraft:hunger",
+                    "duration": 300,
+                    "amplifier": 0,
+                    "show_particles": false,
+                    "show_icon": true
+                }
+            }
+        },
+        "key": {
+            "key": "key.use",
+            "continuous": true
+        }
+    }
+}

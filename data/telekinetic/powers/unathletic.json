@@ -1,0 +1,16 @@
+{
+    "name": "Weak Muscles",
+    "description": "Due to your reliance on your psychic powers, your muscles are weak\n(weakness 2)",
+    "type": "origins:stacking_status_effect",
+    "min_stacks": -5,
+    "max_stacks": 2,
+    "duration_per_stack": 300,
+    "tick_rate": 20,
+    "effect": {
+        "effect": "minecraft:weakness",
+        "duration": 300,
+        "amplifier": 1,
+        "show_particles": false,
+        "show_icon": true
+    }
+}

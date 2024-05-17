@@ -1,0 +1,20 @@
+{
+    "name": "Telekinetic Reach",
+    "description": "Using your telekinetic powers, you are able to extend your reach by 1 extra block",
+    "type": "origins:attribute",
+    "modifiers": [
+        {
+            "attribute": "forge:block_reach",
+            "operation": "addition",
+            "value": 1,
+            "name": "Extra Reach block reach"
+        },
+        {
+            "attribute": "forge:entity_reach",
+            "operation": "addition",
+            "value": 1,
+            "name": "Extra Reach attack reach"
+        }
+    ],
+    "update_health": true
+}

@@ -1,0 +1,17 @@
+{
+    "name": "Telekinetic",
+    "description": "Your have been blessed with the ability to control your sorroundings and yourself with only the power of your mind",
+    "powers": [
+        "telekinetic:telekinesis",
+        "telekinetic:telekinetic_push",
+        "telekinetic:push_pull",
+        "telekinetic:telekinetic_levitation",
+        "telekinetic:telekinetic_reach",
+        "telekinetic:mental_exhaustion",
+        "telekinetic:unathletic"
+    ],
+    "icon": {
+        "item": "minecraft:popped_chorus_fruit"
+    },
+    "impact": 1
+}
