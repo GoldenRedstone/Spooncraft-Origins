@@ -1,0 +1,40 @@
+{
+    "name": "Translation Error",
+    "description": "Your body must be translated to each dimension you visit. A side effect is slight interpretation. You can change your size from Normal, Small, or Big.",
+    "type": "origins:active_self",
+    "entity_action": {
+        "type": "origins:if_else",
+        "condition": {
+            "type": "origins:resource",
+            "resource": "zipntoit:size_resource",
+            "comparison": "<",
+            "compare_to": 1
+        },
+        "if_action": {
+            "type": "origins:change_resource",
+            "resource": "zipntoit:size_resource",
+            "change": 2
+        },
+        "else_action": {
+            "type": "origins:if_else",
+            "condition": {
+                "type": "origins:resource",
+                "resource": "zipntoit:size_resource",
+                "comparison": ">",
+                "compare_to": 1
+            },
+            "if_action": {
+                "type": "origins:change_resource",
+                "resource": "zipntoit:size_resource",
+                "change": -1
+            },
+            "else_action": {
+                "type": "origins:change_resource",
+                "resource": "zipntoit:size_resource",
+                "change": -1
+            }
+        }
+    },
+    "cooldown": 5,
+    "key": "key.origins.primary_active"
+}

@@ -1,0 +1,37 @@
+{
+    "name": "Disruption",
+    "description": "Your body has a hard enough time staying together as it is. Photons tend to break the fragile bonds keeping you together. You are weaker in higher light levels.",
+    "condition": {
+        "type": "origins:brightness",
+        "comparison": ">=",
+        "compare_to": 12
+    },
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 20,
+    "tick_rate": 10,
+    "effects": [
+        {
+            "effect": "minecraft:slowness",
+            "duration": 100,
+            "amplifier": 1,
+            "show_particles": false,
+            "show_icon": false
+        },
+        {
+            "effect": "minecraft:mining_fatigue",
+            "duration": 100,
+            "amplifier": 0,
+            "show_particles": false,
+            "show_icon": false
+        },
+        {
+            "effect": "minecraft:weakness",
+            "duration": 100,
+            "amplifier": 0,
+            "show_particles": false,
+            "show_icon": false
+        }
+    ]
+}

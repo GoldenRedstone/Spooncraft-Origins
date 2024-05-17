@@ -1,0 +1,19 @@
+{
+    "name": "Other",
+    "description": "A being of mysterious origin, even to itself. It travels across time, space, and planes trying to piece itself together and find its way home.",
+    "powers": [
+        "zipntoit:frail",
+        "zipntoit:portality",
+        "zipntoit:return_to_rift",
+        "zipntoit:scorching_sun",
+        "zipntoit:shaking",
+        "zipntoit:size_change",
+        "zipntoit:size_changer",
+        "zipntoit:size_resource",
+        "zipntoit:supernova"
+    ],
+    "icon": {
+        "item": "minecraft:sculk_catalyst"
+    },
+    "impact": 2
+}

@@ -1,0 +1,11 @@
+{
+    "name": "Shatterd",
+    "description": "You lost a part of yourself long ago, and are on a quest to find it. You have half health and are slightly transparent and always shaking.",
+    "type": "origins:attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.max_health",
+        "operation": "addition",
+        "value": -10
+    },
+    "update_health": true
+}

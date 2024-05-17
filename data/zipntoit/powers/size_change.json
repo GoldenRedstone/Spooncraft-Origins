@@ -1,0 +1,35 @@
+{
+    "hidden": true,
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:if_else",
+        "condition": {
+            "type": "origins:resource",
+            "resource": "zipntoit:size_resource",
+            "comparison": "<",
+            "compare_to": 1
+        },
+        "if_action": {
+            "type": "origins:execute_command",
+            "command": "function zipntoit:small"
+        },
+        "else_action": {
+            "type": "origins:if_else",
+            "condition": {
+                "type": "origins:resource",
+                "resource": "zipntoit:size_resource",
+                "comparison": ">",
+                "compare_to": 1
+            },
+            "if_action": {
+                "type": "origins:execute_command",
+                "command": "function zipntoit:large"
+            },
+            "else_action": {
+                "type": "origins:execute_command",
+                "command": "function zipntoit:normal"
+            }
+        }
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "condition": {
+        "type": "origins:scoreboard",
+        "objective": "Rift_Mage",
+        "comparison": ">",
+        "compare_to": 0
+    },
+    "type": "origins:prevent_death",
+    "damage_condition": {
+        "inverted": true,
+        "type": "origins:name",
+        "name": "outOfWorld"
+    },
+    "entity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:execute_command",
+                "command": "function zipntoit:return_to_rift"
+            },
+            {
+                "type": "origins:heal",
+                "amount": 10
+            }
+        ]
+    }
+}
