@@ -7,7 +7,7 @@
         "stack": {
             "item": "minecraft:iron_helmet",
             "amount": 1,
-            "tag": "{display:{Name:\"Shroom Cap\"},Enchantments:[{id:binding_curse,lvl:1},{id:unbreaking,lvl:3},{id:vanishing_curse,lvl:1}],Trim:{pattern:silence,material:redstone}}",
+            "tag": "{display:{Name:\"Shroom Cap\"},Enchantments:[{id:binding_curse,lvl:1},{id:vanishing_curse,lvl:1}],Trim:{pattern:silence,material:redstone}}",
             "slot": 39
         },
         "recurrent": true

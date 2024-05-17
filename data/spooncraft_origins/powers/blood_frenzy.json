@@ -3,16 +3,16 @@
     "description": "Kill five mobs within quick succession to enter a blood frenzy. Drinking too much might make you sick.",
     "type": "origins:resource",
     "min": 0,
-    "max": 7,
+    "max": 9,
     "start_value": 0,
     "hud_render": {
         "should_render": true,
-        "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_points_01.png",
+        "sprite_location": "spooncraft_origins:textures/gui/resource_bar_points.png",
         "bar_index": 0
     },
     "max_action": {
         "type": "origins:chance",
-        "chance": 0.25,
+        "chance": 0.5,
         "action": {
             "type": "origins:execute_command",
             "command": "execute at @s run function spooncraft_origins:blood_explode"

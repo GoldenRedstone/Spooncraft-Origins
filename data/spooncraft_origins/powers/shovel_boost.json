@@ -1,5 +1,13 @@
 {
     "name": "Super Spoon",
     "description": "You are more skilled with spoons.",
-    "type": "origins:simple"
+    "type": "origins:modify_break_speed",
+    "block_condition": {
+        "type": "origins:in_tag",
+        "tag": "minecraft:mineable/shovel"
+    },
+    "modifier": {
+        "operation": "multiply_base",
+        "value": 0.15
+    }
 }

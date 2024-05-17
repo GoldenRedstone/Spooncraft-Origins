@@ -1,0 +1,24 @@
+{
+    "hidden": true,
+    "type": "origins:multiple",
+    "spark": {
+        "type": "origins:particle",
+        "particle": "minecraft:electric_spark",
+        "frequency": 1,
+        "count": 1,
+        "speed": 0,
+        "offset_x": 0,
+        "offset_y": 0.5,
+        "offset_z": 0
+    },
+    "flower": {
+        "type": "origins:particle",
+        "particle": "minecraft:cherry_leaves",
+        "frequency": 1,
+        "count": 1,
+        "speed": 0,
+        "offset_x": 0,
+        "offset_y": 0,
+        "offset_z": 0
+    }
+}

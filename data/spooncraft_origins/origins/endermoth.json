@@ -12,7 +12,8 @@
         "spooncraft_origins:pollinate"
     ],
     "icon": {
-        "item": "nightlights:hanging_light_yellow"
+        "item": "minecraft:redstone_lamp",
+        "tag": "{lit:true}"
     },
     "impact": 3
 }

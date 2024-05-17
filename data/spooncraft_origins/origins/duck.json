@@ -1,11 +1,14 @@
 {
     "name": "Duck",
+    "description": "A small winged creature. Waddle, swim and glide your way through your magical adventures.",
     "powers": [
         "origins:swim_speed",
+        "spooncraft_origins:more_air",
+        "spooncraft_origins:slow_fall",
         "spooncraft_origins:slow_out_of_water",
         "spooncraft_origins:small",
         "prscaleorigins:small_scale",
         "prscaleorigins:small_balance"
     ],
-    "impact": 1
+    "impact": 2
 }

@@ -2,8 +2,8 @@
     "pack": {
         "name": "Spooncraft Origins",
         "id": "spooncraft_origins",
-        "pack_format": 18,
-        "version": "0.9.1",
+        "pack_format": 15,
+        "version": "1.0.0",
         "authors": [
             "GoldenRedstone"
         ],

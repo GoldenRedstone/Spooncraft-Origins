@@ -1,5 +1,6 @@
 {
     "name": "Speedy",
+    "description": "You can run around faster than usual.",
     "type": "origins:attribute",
     "modifier": {
         "attribute": "generic.movement_speed",

@@ -1,4 +1,5 @@
 {
+    "hidden": true,
     "type": "origins:self_action_on_kill",
     "entity_action": {
         "type": "origins:and",
@@ -17,11 +18,11 @@
                     "change": -1,
                     "operation": "add"
                 },
-                "ticks": 1200
+                "ticks": 900
             }
         ]
     },
-    "cooldown": 30,
+    "cooldown": 20,
     "hud_render": {
         "should_render": false
     }

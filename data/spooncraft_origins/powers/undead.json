@@ -1,0 +1,31 @@
+{
+    "name": "Undead",
+    "description": "You burn in daylight if not wearing a helmet.",
+    "type": "origins:multiple",
+    "smite": {
+        "type": "origins:entity_group",
+        "group": "undead"
+    },
+    "burn": {
+        "condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:exposed_to_sun"
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:equipped_item",
+                    "equipment_slot": "head",
+                    "item_condition": {
+                        "inverted": true,
+                        "type": "origins:empty"
+                    }
+                }
+            ]
+        },
+        "type": "origins:burn",
+        "interval": 20,
+        "burn_duration": 1
+    }
+}

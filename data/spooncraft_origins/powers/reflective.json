@@ -45,7 +45,7 @@
                         "type": "origins:light_level",
                         "light_type": "block",
                         "comparison": "<=",
-                        "compare_to": 3
+                        "compare_to": 1
                     }
                 },
                 {

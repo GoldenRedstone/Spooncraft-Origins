@@ -10,7 +10,11 @@
         "spooncraft_origins:axolotl",
         "spooncraft_origins:vampire",
         "spooncraft_origins:flower_fairy",
-        "spooncraft_origins:duck"
+        "spooncraft_origins:duck",
+        "spooncraft_origins:raccoon",
+        "spooncraft_origins:hag",
+        "telekinetic:telekinetic",
+	"zipntoit:other"
     ],
     "enabled": true
 }

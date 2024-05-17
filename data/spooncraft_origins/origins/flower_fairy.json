@@ -1,5 +1,6 @@
 {
     "name": "Flower Fairy",
+    "description": "Small winged fey creatures who protect and pollinate flowers. Barefoot sunshine walkers, tree-huggers, and mischievous forest sprites.",
     "powers": [
         "spooncraft_origins:fairy_wings",
         "spooncraft_origins:pollinate",
@@ -7,10 +8,11 @@
         "spooncraft_origins:small",
         "spooncraft_origins:diurnal",
         "prscaleorigins:small_scale",
-        "prscaleorigins:small_balance"
+        "prscaleorigins:small_balance",
+        "spooncraft_origins:sparkle_particles"
     ],
     "icon": {
-        "item": "botancia:cosmetic_blue_butterfly"
+        "item": "minecraft:peony"
     },
-    "impact": 1
+    "impact": 2
 }

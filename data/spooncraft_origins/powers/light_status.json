@@ -1,0 +1,5 @@
+{
+    "hidden": true,
+    "type": "origins:action_over_time",
+    "interval": 20
+}

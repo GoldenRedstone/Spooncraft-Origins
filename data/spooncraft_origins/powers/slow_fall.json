@@ -1,0 +1,10 @@
+{
+    "name": "Graceful Decent",
+    "description": "You can fall slower by sneaking, taking no fall damage.",
+    "condition": {
+        "type": "origins:sneaking"
+    },
+    "type": "origins:modify_falling",
+    "velocity": 0.02,
+    "take_fall_damage": false
+}

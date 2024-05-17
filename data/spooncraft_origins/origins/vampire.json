@@ -1,13 +1,17 @@
 {
     "name": "Vampire",
     "powers": [
+        "spooncraft_origins:strength_on_kill",
+        "spooncraft_origins:blood_frenzy",
         "spooncraft_origins:lifesteal",
         "spooncraft_origins:nocturnal",
         "origins:water_vulnerability",
-        "spooncraft_origins:smite_weakness",
-        "spooncraft_origins:blood_frenzy",
-        "spooncraft_origins:blood_frenzy_accumulate",
-        "spooncraft_origins:strength_on_kill"
+        "spooncraft_origins:fire_vulnerability",
+        "spooncraft_origins:undead",
+        "spooncraft_origins:blood_frenzy_accumulate"
     ],
+    "icon": {
+        "item": "bloodmagic:weakbloodshard"
+    },
     "impact": 2
 }

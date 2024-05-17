@@ -1,0 +1,17 @@
+{
+    "name": "Raccoon",
+    "powers": [
+        "spooncraft_origins:speedy",
+        "spooncraft_origins:damage_boost",
+        "spooncraft_origins:phantomize",
+        "origins:invisibility",
+        "origins:hunger_over_time",
+        "origins:phantomize_overlay",
+        "spooncraft_origins:small",
+        "prscaleorigins:small_scale",
+        "prscaleorigins:small_balance",
+        "origins:carnivore",
+        "origins:no_shield"
+    ],
+    "impact": 0
+}

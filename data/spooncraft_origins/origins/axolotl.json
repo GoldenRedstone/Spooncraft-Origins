@@ -6,11 +6,12 @@
         "origins:water_vision",
         "origins:aqua_affinity",
         "origins:swim_speed",
+        "origins:like_water",
         "origins:aquatic",
         "spooncraft_origins:nocturnal",
         "origins:carnivore",
         "prscaleorigins:short_scale",
-        "spooncraft_origins:bubbles",
+        "spooncraft_origins:bubble_particles",
         "spooncraft_origins:freshwater"
     ],
     "icon": {

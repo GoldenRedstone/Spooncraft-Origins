@@ -12,7 +12,7 @@
                         "type": "origins:light_level",
                         "light_type": "block",
                         "comparison": "<=",
-                        "compare_to": 3
+                        "compare_to": 1
                     }
                 },
                 {
@@ -47,7 +47,7 @@
                         "type": "origins:light_level",
                         "light_type": "block",
                         "comparison": "<=",
-                        "compare_to": 3
+                        "compare_to": 1
                     }
                 },
                 {
@@ -82,7 +82,7 @@
                         "type": "origins:light_level",
                         "light_type": "block",
                         "comparison": "<=",
-                        "compare_to": 3
+                        "compare_to": 1
                     }
                 },
                 {
@@ -117,7 +117,7 @@
                         "type": "origins:light_level",
                         "light_type": "block",
                         "comparison": "<=",
-                        "compare_to": 3
+                        "compare_to": 1
                     }
                 },
                 {
@@ -140,7 +140,7 @@
         "modifier": {
             "attribute": "generic.movement_speed",
             "operation": "multiply_base",
-            "value": -0.15
+            "value": -1
         },
         "update_health": false
     }

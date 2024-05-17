@@ -1,7 +1,11 @@
 {
     "name": "Spoonling",
+    "description": "Every time you have a spoon moment, one of these are created.",
     "powers": [
         "spooncraft_origins:shovel_boost"
     ],
+    "icon": {
+        "item": "minecraft:iron_shovel"
+    },
     "impact": 0
 }

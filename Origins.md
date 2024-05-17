@@ -7,10 +7,11 @@ Created by GoldenRedstone
 
 ### Powers
 | Name | ID | Description (In-Game) | Description (Detailed) | Status |
-|--------------------|-------------------------------------|-----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|------------------|
-| Solar Powered | `spooncraft_origins:light_powerful` | *You are most powerful in bright light.* | In bright light, the player is granted +50% mining speed, +2.5 hearts damage dealt, and -1.5 hearts damage taken. | Testing Required |
-| Fortunate Sun | `spooncraft_origins:light_fortune` | *Your luck increases when under the sun.* | Player has a chance of doubling drops of ore blocks when under the sun. | Not Functional |
+|--------------------|--------------------------------------|-----------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------|------------------|
+| Solar Powered | `spooncraft_origins:bright_powerful` | *You are most powerful in bright light.* | In bright light, the player is granted +50% mining speed, +2.5 hearts damage dealt, and -1.5 hearts damage taken. | Testing Required |
+| Fortunate Sun | `spooncraft_origins:bright_fortune` | *Your luck increases when under the sun.* | Player has a chance of doubling drops of ore blocks when exposed to the sun. | Testing Required |
 | Reflective Skin | `spooncraft_origins:reflective` | *Your skin reflects the brightness of your surroundings.* | Player model changes colour in response to the brightness of the surroundings. | Testing Required |
+| Bright Presence | `spooncraft_origins:bright_glowing` | *Your radiance is dazzling.* | Player glows when in very high light levels. | Testing Required |
 | Crawls in the dark | `spooncraft_origins:light_weakness` | *You are weakest where there is no light.* | In dark light, the player receives -50% mining speed, -3 hearts damage dealt, and +2 hearts damage taken. | Testing Required |
 | *hidden* | `spooncraft_origins:scared_of_dark` | | Player shakes when in dark spaces. | Fully Functional |
 | *hidden* | `prscaleorigins:tall_scale` | | Player model is visually 10% taller. | Fully Functional |
@@ -36,7 +37,7 @@ Created by GoldenRedstone
 `spooncraft_origins:endermoth`  
 Designed by Archie  
 Created by GoldenRedstone  
-*Intellegent and kind moths native to the End. They have inherited endermens allergy to water and their ability to teleport.*
+*Intelligent and kind moths native to the End. They have inherited endermens allergy to water and their ability to teleport.*  
 
 ### Powers
 | Name | ID | Description (In-Game) | Description (Detailed) | Status |
@@ -51,7 +52,7 @@ Created by GoldenRedstone
 | *hidden* | `origins:ender_particles` | | Player emits end themed particles. | Fully Functional |
 
 ## Atlantian  
-`spooncraft_origins:dolfijn`  
+`spooncraft_origins:atlantian`  
 Designed by Wicdor  
 Created by GoldenRedstone  
 *Description*  
@@ -66,7 +67,7 @@ Created by GoldenRedstone
 | Like Water | `origins:like_water` | *When underwater, you do not sink to the ground unless you want to.* | You will only sink in water if you have downwards velocity. Pressing space will prevent sinking. | Fully Functional |
 | Waddle | `spooncraft_origins:slow_out_of_water` | *You move slower out of water.* | Player walk speed is reduced by 30% while not touching water. | Fully Functional |
 | Tricky Tail | `spooncraft_origins:no_lower_armour` | *Your tail gets in the way of boots and leggings.* | Player cannot wear boots or leggings. | Fully Functional |
-| *hidden* | `spooncraft_origins:bubbles` | | The player emits bubble particles. | Fully Functional |
+| *hidden* | `spooncraft_origins:bubble_particles` | | The player emits bubble particles. | Fully Functional |
 | *hidden* | `origins:aquatic` | | The player takes more damage from impaling tridents. | Fully Functional |
 
 ## Wendigo  
@@ -113,7 +114,7 @@ Created by GoldenRedstone
 
 ### Powers
 | Name | ID | Description (In-Game) | Description (Detailed) | Status |
-|---------------|-----------------------------------|------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|
+|---------------|---------------------------------------|------------------------------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|
 | Amphibious | `spooncraft:water_breathing` | *You can breathe underwater and on land.* | | Fully Functional |
 | Play Dead | `spooncraft_origins:active_regen` | *You can play dead to regenerate some health.* | Pressing the active power key (default G) gives regeneration III for 10 seconds, resistance III for 10 seconds, and slowness V for 15 seconds. Ability recharges in 15 seconds. | Fully Functional |
 | Wet Eyes | `origins:water_vision` | *Your vision underwater is perfect.* | You can see perfectly underwater. This ability can be toggled with the Primary Active power key (default to G). | Fully Functional |
@@ -124,7 +125,7 @@ Created by GoldenRedstone
 | Freshwater | `spooncraft:freshwater` | *Swimming in saltwater damages you.* | Player receives damage while in water in ocean biomes. The damage can be delayed with the water protection enchantment. | Fully Functional |
 | Carnivore | `origins:carnivore` | *Your diet is restricted to meat, you can't eat vegetables.* | Player can only eat food items defined in the tags `origins:meat` or `origins:ignore_diet`. | Testing Required |
 | *hidden* | `prscaleorigins:short_scale` | | Player model is visually 10% shorter. | Fully Functional |
-| *hidden* | `spooncraft_origins:bubbles` | | The player emits bubble particles | Fully Functional |
+| *hidden* | `spooncraft_origins:bubble_particles` | | The player emits bubble particles | Fully Functional |
 | *hidden* | `origins:aquatic` | | The player takes more damage from impaling tridents. | Fully Functional |
 
 ## Vampire  
@@ -153,15 +154,15 @@ Created by GoldenRedstone
 
 ### Powers
 | Name | ID | Description (In-Game) | Description (Detailed) | Status |
-|-------------|----------------------------------------|-----------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------|------------------|
-| Fairy Wings | `spooncraft_origins:fairy_wings` | *You have elytra wings without needing to equip any.* | | Not Functional |
+|-------------|----------------------------------------|-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|------------------|
+| Fairy Wings | `spooncraft_origins:fairy_wings` | *You can fly around during the day. During the night you can only manage to float.* | The player has access to creative flight during the day. During the night the player has -50% falling speed. | Testing Required |
 | Pollinate | `spooncraft_origins:pollinate` | | | Testing Required |
-| Acrobatics | `origins:fall_immunity` | *You never take fall damage, no matter from which height you fall.* | The player does not take any fall damage. | Testing Required |
+| Acrobatics | `origins:fall_immunity` | *You never take fall damage, no matter from which height you fall.* | The player does not take any fall damage. | Fully Functional |
 | Diurnal | `spooncraft_origins:diurnal` | *You walk slightly faster during the day and slower during the night.* | Player walk speed is increased by 15% during the day, and reduced by 30% while exposed to the sky at night. | Testing Required |
 | Small Body | `spooncraft_origins:small` | *You are much smaller than a human and have the health and reach to match.* | Max health is decreased by 30%. Reach is decreased by 1 blocks. | Fully Functional |
 | *hidden* | `prscaleorigins:small_scale` | | Sets player scale to approximately 30%. | Fully Functional |
 | *hidden* | `prscaleorigins:small_balance` | | Decreases the range at which mobs can detect the player. | Fully Functional |
-| *hidden* | `spooncraft_origins:sparkle_particles` | | The player emits sparkle particles | Not Implemented |
+| *hidden* | `spooncraft_origins:sparkle_particles` | | The player emits sparkle particles | Testing Required |
 
 ## Duck  
 `spooncraft_origins:duck`  
@@ -174,7 +175,7 @@ Created by GoldenRedstone
 |-----------------|----------------------------------------|------------------------------------------------------------------------|-----------------------------------------------------------------|------------------|
 | Fins | `origins:swim_speed` | *Your underwater speed is increased.* | You swim faster. | Fully Functional |
 | Deep Diver | | | | Not Implemented |
-| Graceful Decent | | | | Not Implemented |
+| Graceful Decent | | | The player has -75% fall speed. | Testing Required |
 | Waddle | `spooncraft_origins:slow_out_of_water` | *You move slower out of water.* | Player walk speed is reduced by 30% while not touching water. | Fully Functional |
 | Small Body | `spooncraft_origins:small` | *You are smaller than a human and have the health and reach to match.* | Max health is decreased by 30%. Reach is decreased by 1 blocks. | Fully Functional |
 | *hidden* | `prscaleorigins:small_scale` | | Sets player scale to approximately 66%. | Fully Functional |

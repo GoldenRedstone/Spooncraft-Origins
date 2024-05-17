@@ -1,13 +1,15 @@
 {
     "name": "Atlantian",
+    "description": "Blub blub, glub blub glub.",
     "powers": [
         "origins:water_vision",
         "origins:aqua_affinity",
         "origins:swim_speed",
+        "origins:like_water",
         "origins:aquatic",
         "spooncraft_origins:no_lower_armour",
         "spooncraft_origins:slow_out_of_water",
-        "spooncraft_origins:bubbles",
+        "spooncraft_origins:bubble_particles",
         "spooncraft_origins:water_breathing"
     ],
     "icon": {
