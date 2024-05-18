@@ -9,21 +9,22 @@ It currently adds:
 - Atlantian
 - Wendigo
 - Axolotl
-
-Coming soon:
 - Spoonling
 - Vampire
 - Flower Fairy
 - Duck
+- Hag
 
+Coming soon:
+- Raccoon
 
 ## [All Origins](Origins.md)
 For all origins, their powers, and the status of implementing them [see Origins.md](Origins.md)
 
 ## Contributing
-You are welcome to make a custom origin to contribute to the pack by making a pull request!  
 If you want a custom origin made let me know and I can make it.  
 If you have made a custom origin but don't know how to include it, also let me know and I will do it.  
+You are welcome to contribute to the pack by making a pull request!  
   
 Some useful links:
 - [MathGeniusZach's Origin Creator Website](https://www.mathgeniuszach.com/apps/origin-creator/)
