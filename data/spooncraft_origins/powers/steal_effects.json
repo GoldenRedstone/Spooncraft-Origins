@@ -1,0 +1,91 @@
+{
+    "name": "Thief",
+    "description": "*You can steal someones status effects to make a quick get away.*\n",
+    "type": "origins:action_on_hit",
+    "bientity_action": {
+        "type": "origins:and",
+        "actions": [
+            {
+                "type": "origins:target_action",
+                "action": {
+                    "type": "origins:clear_effect",
+                    "effect": "minecraft:speed"
+                }
+            },
+            {
+                "type": "origins:target_action",
+                "action": {
+                    "type": "origins:clear_effect",
+                    "effect": "minecraft:haste"
+                }
+            },
+            {
+                "type": "origins:target_action",
+                "action": {
+                    "type": "origins:clear_effect",
+                    "effect": "minecraft:strength"
+                }
+            },
+            {
+                "type": "origins:target_action",
+                "action": {
+                    "type": "origins:clear_effect",
+                    "effect": "minecraft:regeneration"
+                }
+            },
+            {
+                "type": "origins:target_action",
+                "action": {
+                    "type": "origins:clear_effect",
+                    "effect": "minecraft:resistance"
+                }
+            },
+            {
+                "type": "origins:actor_action",
+                "action": {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:speed",
+                        "duration": 200,
+                        "amplifier": 1,
+                        "show_particles": true,
+                        "show_icon": true
+                    }
+                }
+            },
+            {
+                "type": "origins:target_action",
+                "action": {
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:slowness",
+                        "duration": 200,
+                        "amplifier": 1,
+                        "show_particles": true,
+                        "show_icon": true
+                    }
+                }
+            }
+        ]
+    },
+    "bientity_condition": {
+        "type": "origins:target_condition",
+        "condition": {
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:status_effect",
+                    "effect": "minecraft:speed",
+                    "min_amplifier": 0,
+                    "max_amplifier": 100,
+                    "min_duration": 0,
+                    "max_duration": 100
+                },
+                {
+                    "type": "origins:and"
+                }
+            ]
+        }
+    },
+    "cooldown": 200
+}

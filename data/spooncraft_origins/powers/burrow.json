@@ -1,0 +1,13 @@
+{
+    "condition": {
+        "type": "origins:sneaking"
+    },
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "player.block_break_speed",
+        "operation": "addition",
+        "value": 0.3
+    },
+    "tick_rate": 20,
+    "update_health": true
+}

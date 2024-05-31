@@ -11,7 +11,9 @@
         "prscaleorigins:small_scale",
         "prscaleorigins:small_balance",
         "origins:carnivore",
-        "origins:no_shield"
+        "origins:no_shield",
+        "spooncraft_origins:burrow",
+        "spooncraft_origins:steal_effects"
     ],
     "impact": 0
 }
