@@ -4,14 +4,24 @@
     "type": "origins:multiple",
     "flight": {
         "condition": {
-            "type": "origins:and",
+            "type": "origins:or",
             "conditions": [
                 {
-                    "type": "origins:daytime"
+                    "type": "origins:and",
+                    "conditions": [
+                        {
+                            "type": "origins:daytime"
+                        },
+                        {
+                            "inverted": true,
+                            "type": "origins:in_rain"
+                        }
+                    ]
                 },
                 {
                     "inverted": true,
-                    "type": "origins:in_rain"
+                    "type": "origins:dimension",
+                    "dimension": "minecraf:overworld"
                 }
             ]
         },
@@ -26,7 +36,7 @@
         "type": "origins:modify_air_speed",
         "modifier": {
             "operation": "multiply_base",
-            "value": -0.5
+            "value": -0.4
         }
     }
 }

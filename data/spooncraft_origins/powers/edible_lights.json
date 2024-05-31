@@ -2,6 +2,35 @@
     "name": "Light Eater",
     "description": "You can only eat light sources.",
     "type": "origins:multiple",
+    "prevent": {
+        "type": "origins:prevent_item_use",
+        "item_condition": {
+            "type": "origins:and",
+            "conditions": [
+                {
+                    "type": "origins:food"
+                },
+                {
+                    "inverted": true,
+                    "type": "origins:or",
+                    "conditions": [
+                        {
+                            "type": "origins:ingredient",
+                            "ingredient": {
+                                "tag": "spooncraft_origins:lights"
+                            }
+                        },
+                        {
+                            "type": "origins:ingredient",
+                            "ingredient": {
+                                "item": "origins:ignore_diet"
+                            }
+                        }
+                    ]
+                }
+            ]
+        }
+    },
     "lights_1": {
         "type": "apugli:edible_item",
         "item_condition": {
@@ -145,30 +174,5 @@
         },
         "use_action": "eat",
         "priority": 1
-    },
-    "prevent": {
-        "type": "origins:prevent_item_use",
-        "item_condition": {
-            "type": "origins:and",
-            "conditions": [
-                {
-                    "type": "origins:food"
-                },
-                {
-                    "inverted": true,
-                    "type": "origins:ingredient",
-                    "ingredient": {
-                        "tag": "spooncraft_origins:lights"
-                    }
-                },
-                {
-                    "inverted": true,
-                    "type": "origins:ingredient",
-                    "ingredient": {
-                        "tag": "origins:ignore_diet"
-                    }
-                }
-            ]
-        }
     }
 }

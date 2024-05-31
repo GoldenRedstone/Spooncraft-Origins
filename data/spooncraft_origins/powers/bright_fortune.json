@@ -1,16 +1,17 @@
 {
     "name": "Fortunate Sun",
     "description": "Your luck increases when under the sun.",
-    "type": "origins:stacking_status_effect",
-    "min_stacks": 0,
-    "max_stacks": 1,
-    "duration_per_stack": 100,
+    "condition": {
+        "type": "origins:brightness",
+        "comparison": ">=",
+        "compare_to": 2
+    },
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+        "attribute": "minecraft:generic.luck",
+        "operation": "addition",
+        "value": 20
+    },
     "tick_rate": 20,
-    "effect": {
-        "effect": "minecraft:luck",
-        "duration": 120,
-        "amplifier": 9,
-        "show_particles": false,
-        "show_icon": true
-    }
+    "update_health": true
 }

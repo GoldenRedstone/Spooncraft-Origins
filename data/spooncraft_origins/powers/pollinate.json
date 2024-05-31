@@ -19,5 +19,6 @@
         "should_render": true,
         "sprite_location": "spooncraft_origins:textures/gui/resource_bar.png",
         "bar_index": 4
-    }
+    },
+    "key": "secondary"
 }
