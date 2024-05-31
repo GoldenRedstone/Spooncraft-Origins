@@ -1,0 +1,13 @@
+{
+    "name": "Melee what's that?",
+    "description": "Your melee attacks are weaker.",
+    "type": "origins:modify_damage_dealt",
+    "damage_condition": {
+        "inverted": true,
+        "type": "origins:projectile"
+    },
+    "modifier": {
+        "operation": "multiply_base",
+        "value": -0.4
+    }
+}
