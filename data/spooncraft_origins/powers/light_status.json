@@ -1,5 +1,26 @@
 {
     "hidden": true,
     "type": "origins:action_over_time",
-    "interval": 20
+    "interval": 20,
+    "entity_action": {
+        "type": "origins:if_else_list",
+        "actions": [
+            {
+                "condition": {
+                    "type": "origins:and",
+                    "conditions": [
+                        {
+                            "type": "origins:and"
+                        }
+                    ]
+                },
+                "action": {
+                    "type": "origins:change_resource",
+                    "resource": "spooncraft_origins:light_status_bar",
+                    "change": 1,
+                    "operation": "set"
+                }
+            }
+        ]
+    }
 }

@@ -6,12 +6,16 @@
         "comparison": ">=",
         "compare_to": 2
     },
-    "type": "origins:conditioned_attribute",
-    "modifier": {
-        "attribute": "minecraft:generic.luck",
-        "operation": "addition",
-        "value": 20
-    },
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 20,
+    "duration_per_stack": 600,
     "tick_rate": 20,
-    "update_health": true
+    "effect": {
+        "effect": "minecraft:luck",
+        "duration": 100,
+        "amplifier": 19,
+        "show_particles": false,
+        "show_icon": false
+    }
 }

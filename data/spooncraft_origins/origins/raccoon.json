@@ -15,5 +15,8 @@
         "spooncraft_origins:burrow",
         "spooncraft_origins:steal_effects"
     ],
-    "impact": 0
+    "icon": {
+        "item": "alexsmobs:raccoon_tail"
+    },
+    "impact": 1
 }

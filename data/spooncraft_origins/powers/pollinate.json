@@ -1,5 +1,13 @@
 {
     "name": "Pollinate",
+    "description": "You cause flowers and grass to bloom!",
+    "badges": [
+        {
+            "type": "origins:keybind",
+            "text": "Activate with %s.",
+            "sprite": "origins:textures/gui/badge/active.png"
+        }
+    ],
     "type": "origins:active_self",
     "entity_action": {
         "type": "origins:block_action_at",

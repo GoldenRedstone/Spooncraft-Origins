@@ -1,6 +1,6 @@
 {
-    "name": "Fairy Wings",
-    "description": "You can fly around on sunny days. During the night or while raining you can only manage to float.",
+    "name": "Feathered Flight",
+    "description": "You can slowly but stably fly around.",
     "type": "origins:multiple",
     "flight": {
         "condition": {
@@ -36,7 +36,7 @@
         "type": "origins:modify_air_speed",
         "modifier": {
             "operation": "multiply_base",
-            "value": -0.4
+            "value": -0.6
         }
     }
 }

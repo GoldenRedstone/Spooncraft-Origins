@@ -1,6 +1,6 @@
 {
     "name": "Thief",
-    "description": "*You can steal someones status effects to make a quick get away.*\n",
+    "description": "You can steal someones status effects to make a quick get away.",
     "type": "origins:action_on_hit",
     "bientity_action": {
         "type": "origins:and",
@@ -36,8 +36,14 @@
             {
                 "type": "origins:target_action",
                 "action": {
-                    "type": "origins:clear_effect",
-                    "effect": "minecraft:resistance"
+                    "type": "origins:apply_effect",
+                    "effect": {
+                        "effect": "minecraft:slowness",
+                        "duration": 300,
+                        "amplifier": 2,
+                        "show_particles": true,
+                        "show_icon": true
+                    }
                 }
             },
             {
@@ -46,20 +52,7 @@
                     "type": "origins:apply_effect",
                     "effect": {
                         "effect": "minecraft:speed",
-                        "duration": 200,
-                        "amplifier": 1,
-                        "show_particles": true,
-                        "show_icon": true
-                    }
-                }
-            },
-            {
-                "type": "origins:target_action",
-                "action": {
-                    "type": "origins:apply_effect",
-                    "effect": {
-                        "effect": "minecraft:slowness",
-                        "duration": 200,
+                        "duration": 300,
                         "amplifier": 1,
                         "show_particles": true,
                         "show_icon": true
@@ -75,17 +68,27 @@
             "conditions": [
                 {
                     "type": "origins:status_effect",
-                    "effect": "minecraft:speed",
-                    "min_amplifier": 0,
-                    "max_amplifier": 100,
-                    "min_duration": 0,
-                    "max_duration": 100
+                    "effect": "minecraft:speed"
                 },
                 {
-                    "type": "origins:and"
+                    "type": "origins:status_effect",
+                    "effect": "minecraft:haste"
+                },
+                {
+                    "type": "origins:status_effect",
+                    "effect": "minecraft:strength"
+                },
+                {
+                    "type": "origins:status_effect",
+                    "effect": "minecraft:regeneration"
                 }
             ]
         }
     },
-    "cooldown": 200
+    "cooldown": 300,
+    "hud_render": {
+        "should_render": true,
+        "sprite_location": "spooncraft_origins:textures/gui/resource_bar.png",
+        "bar_index": 5
+    }
 }

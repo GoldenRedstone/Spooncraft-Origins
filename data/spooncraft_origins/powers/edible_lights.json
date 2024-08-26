@@ -23,7 +23,19 @@
                         {
                             "type": "origins:ingredient",
                             "ingredient": {
-                                "item": "origins:ignore_diet"
+                                "tag": "origins:ignore_diet"
+                            }
+                        },
+                        {
+                            "type": "origins:ingredient",
+                            "ingredient": {
+                                "tag": "chipped:torch"
+                            }
+                        },
+                        {
+                            "type": "origins:ingredient",
+                            "ingredient": {
+                                "tag": "chipped:redstone_torch"
                             }
                         }
                     ]
@@ -64,10 +76,21 @@
     "lights_3": {
         "type": "apugli:edible_item",
         "item_condition": {
-            "type": "origins:ingredient",
-            "ingredient": {
-                "tag": "spooncraft_origins:lights_3"
-            }
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "tag": "spooncraft_origins:lights_3"
+                    }
+                },
+                {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "tag": "chipped:torch"
+                    }
+                }
+            ]
         },
         "food_component": {
             "hunger": 9,
@@ -79,10 +102,21 @@
     "lights_4": {
         "type": "apugli:edible_item",
         "item_condition": {
-            "type": "origins:ingredient",
-            "ingredient": {
-                "tag": "spooncraft_origins:lights_4"
-            }
+            "type": "origins:or",
+            "conditions": [
+                {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "tag": "spooncraft_origins:lights_4"
+                    }
+                },
+                {
+                    "type": "origins:ingredient",
+                    "ingredient": {
+                        "tag": "chipped:redstone_torch"
+                    }
+                }
+            ]
         },
         "food_component": {
             "hunger": 5,

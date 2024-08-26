@@ -11,7 +11,7 @@
         "attribute": "generic.movement_speed",
         "modifier": {
             "operation": "multiply_base",
-            "value": 0.15
+            "value": 0.2
         }
     },
     "day": {
@@ -34,17 +34,6 @@
         }
     },
     "night_vision": {
-        "type": "origins:stacking_status_effect",
-        "min_stacks": 0,
-        "max_stacks": 1,
-        "duration_per_stack": 10,
-        "tick_rate": 10,
-        "effect": {
-            "effect": "minecraft:night_vision",
-            "duration": 100,
-            "amplifier": 0,
-            "show_particles": true,
-            "show_icon": true
-        }
+        "type": "origins:night_vision"
     }
 }

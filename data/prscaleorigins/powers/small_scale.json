@@ -9,12 +9,12 @@
         "actions": [
             {
                 "type": "origins:execute_command",
-                "command": "scale multiply pehkui:eye_height .7",
+                "command": "scale multiply pehkui:eye_height .6",
                 "permission_level": 4
             },
             {
                 "type": "origins:execute_command",
-                "command": "scale multiply pehkui:third_person 0.8",
+                "command": "scale multiply pehkui:third_person 0.7",
                 "permission_level": 4
             },
             {

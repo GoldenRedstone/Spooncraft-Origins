@@ -8,7 +8,11 @@
         "spooncraft_origins:slow_out_of_water",
         "spooncraft_origins:small",
         "prscaleorigins:small_scale",
-        "prscaleorigins:small_balance"
+        "prscaleorigins:small_balance",
+        "spooncraft_origins:duck_wings"
     ],
+    "icon": {
+        "item": "thermal:diving_boots"
+    },
     "impact": 2
 }
