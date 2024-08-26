@@ -41,10 +41,10 @@ Created by GoldenRedstone
 
 ### Powers
 | Name | ID | Description (In-Game) | Description (Detailed) | Status |
-|---------------|------------------------------------|----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|------------------|
-| Teleportation | `origins:throw_ender_pearl` | *Whenever you want, you may throw an ender pearl which deals no damage, allowing you to teleport.* | You can throw an Ender Pearl-like projectile which teleports you without dealing Fall damage to you by pressing your Primary Active power key (default to G) | Fully Functional |
-| Moth Wings | `spooncraft_origins:moth_wings` | *You have elytra wings without needing to equip any.* | | Fully Functional |
-| Pollinate | | | | Testing Required |
+|---------------|------------------------------------|----------------------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------|------------------|
+| Teleportation | `origins:throw_ender_pearl` | *Whenever you want, you may throw an ender pearl which deals no damage, allowing you to teleport.* | Player can throw an Ender Pearl-like projectile which teleports them without dealing damage by pressing the primary active power key (default G) | Fully Functional |
+| Moth Wings | `spooncraft_origins:moth_wings` | *You have elytra wings without needing to equip any.* | The player always has an elytra with a moth wings texture. | Fully Functional |
+| Pollinate | `spooncraft_origins:pollinate` | | The player can bonemeal the ground under their feet by pressing the secondary active power key. | Fully Functional |
 | Nocturnal | `spooncraft_origins:nocturnal` | *You walk slightly faster during the night and slower during the day.* | Player walk speed is increased by 15% during the night, and reduced by 30% while in direct sunlight. | Fully Functional |
 | Hydrophobia | `origins:water_vulnerability` | *You receive damage over time while in contact with water.* | You receive damage while in contact with water. The damage can be delayed with the water protection enchantment. | Fully Functional |
 | Light Eater | `spooncraft_origins:edible_lights` | *You can only eat light sources.* | The player cannot eat regular food. The player can eat light sources. Hunger is restored based on the approximate light level of the food. | Fully Functional |
@@ -55,7 +55,7 @@ Created by GoldenRedstone
 `spooncraft_origins:atlantian`  
 Designed by Wicdor  
 Created by GoldenRedstone  
-*Description*  
+*Blub blub, glub blub glub.*  
 
 ### Powers
 | Name | ID | Description (In-Game) | Description (Detailed) | Status |
@@ -82,7 +82,7 @@ Created by GoldenRedstone
 | Nocturnal | `spooncraft_origins:nocturnal` | *You walk slightly faster during the night and slower during the day.* | Player walk speed is increased by 15% during the night, and reduced by 30% while in direct sunlight. | Fully Functional |
 | Invisibility | `spooncraft_origins:phantomize` `origins:invisibility` `origins:hunger_over_time` `origins:phantomize_overlay` | *You are able to go invisible at will, but only while you are saturated enough to sprint.* | | Testing Required |
 | Fast Metabolism | `origins:hunger_over_time` | | | Testing Required |
-| Sharp Claws | `spooncraft_origins:damage_boost` | *You deal extra damage from melee attacks.* | Attacks from the player deal 20% additional damage. | Testing Required |
+| Sharp Claws | `spooncraft_origins:damage_boost` | *You deal extra damage from melee attacks.* | Attacks from the player deal 20% additional damage. | Fully Functional |
 | Slender Body | `origins:extra_reach` | *You can reach blocks and entities further away.* | The player can reach 1.5 blocks further away. | Fully Functional |
 | Blood Eater | `spooncraft_origins:raw_meat` | | Player can only eat raw meat, but it gives double food and saturation. | Not Functional |
 | Cold Blooded | `spooncraft_origins:fire_weakness` | *You take additional damage from flames.* | The player takes twice the damage from fire | Fully Functional |
@@ -143,39 +143,39 @@ Created by GoldenRedstone
 | Nocturnal | `spooncraft_origins:nocturnal` | *You walk slightly faster during the night and slower during the day.* | Player walk speed is increased by 15% during the night, and reduced by 30% while in direct sunlight. | Fully Functional |
 | Hydrophobia | `origins:water_vulnerability` | *You receive damage over time while in contact with water.* | The player receives damage while in contact with water. The damage can be delayed with the water protection enchantment. | Fully Functional |
 | Cold Blooded | `spooncraft_origins:fire_weakness` | *You take additional damage from flames.* | The player takes twice the damage from fire. | Fully Functional |
-| Undead | `spooncraft_origins:undead` | | Player burns in daylight if not wearing a helmet. Heals with damage potions and is damaged by healing potions. | Not Implemented |
+| Undead | `spooncraft_origins:undead` | | Player burns in daylight if not wearing a helmet. Heals with damage potions and is damaged by healing potions. | Testing Required |
 | *hidden* | `spooncraft_origins:smite_weakness` | | Player takes additional damage from smite. | Testing Required |
 
 ## Flower Fairy  
 `spooncraft_origins:flower_fairy`  
 Designed by Sarah  
 Created by GoldenRedstone  
-*Description*  
+*Small winged fey creatures who protect and pollinate flowers. Barefoot sunshine walkers, tree-huggers, and mischievous forest sprites.*  
 
 ### Powers
 | Name | ID | Description (In-Game) | Description (Detailed) | Status |
-|-------------|----------------------------------------|-------------------------------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|------------------|
-| Fairy Wings | `spooncraft_origins:fairy_wings` | *You can fly around during the day. During the night you can only manage to float.* | The player has access to creative flight during the day. During the night the player has -50% falling speed. | Testing Required |
-| Pollinate | `spooncraft_origins:pollinate` | | | Testing Required |
+|-------------|----------------------------------------|-------------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------------------------------------------------|------------------|
+| Fairy Wings | `spooncraft_origins:fairy_wings` | *You can fly around during the day. During the night you can only manage to float.* | The player has access to creative flight during the day or in other dimensions. During the night the player has -50% falling speed. | Fully Functional |
+| Pollinate | `spooncraft_origins:pollinate` | | The player can bonemeal the ground under their feet by pressing the secondary active power key. | Fully Functional |
 | Acrobatics | `origins:fall_immunity` | *You never take fall damage, no matter from which height you fall.* | The player does not take any fall damage. | Fully Functional |
-| Diurnal | `spooncraft_origins:diurnal` | *You walk slightly faster during the day and slower during the night.* | Player walk speed is increased by 15% during the day, and reduced by 30% while exposed to the sky at night. | Testing Required |
+| Diurnal | `spooncraft_origins:diurnal` | *You walk slightly faster during the day and slower during the night.* | Player walk speed is increased by 15% during the day, and reduced by 30% while exposed to the sky at night. | Fully Functional |
 | Small Body | `spooncraft_origins:small` | *You are much smaller than a human and have the health and reach to match.* | Max health is decreased by 30%. Reach is decreased by 1 blocks. | Fully Functional |
 | *hidden* | `prscaleorigins:small_scale` | | Sets player scale to approximately 30%. | Fully Functional |
 | *hidden* | `prscaleorigins:small_balance` | | Decreases the range at which mobs can detect the player. | Fully Functional |
-| *hidden* | `spooncraft_origins:sparkle_particles` | | The player emits sparkle particles | Testing Required |
+| *hidden* | `spooncraft_origins:sparkle_particles` | | The player emits sparkle particles | Fully Functional |
 
 ## Duck  
 `spooncraft_origins:duck`  
 Designed by Ducky  
 Created by GoldenRedstone  
-*Description*  
+*A small winged creature. Waddle, swim and glide your way through your magical adventures.*  
 
 ### Powers
 | Name | ID | Description (In-Game) | Description (Detailed) | Status |
 |-----------------|----------------------------------------|------------------------------------------------------------------------|-----------------------------------------------------------------|------------------|
 | Fins | `origins:swim_speed` | *Your underwater speed is increased.* | You swim faster. | Fully Functional |
 | Deep Diver | | | | Not Implemented |
-| Graceful Decent | | | The player has -75% fall speed. | Testing Required |
+| Graceful Decent | `spooncraft_origins:slow_fall` | *You can fall slower by sneaking, taking no fall damage.* | The player has -75% fall speed while sneaking. | Fully Functional |
 | Waddle | `spooncraft_origins:slow_out_of_water` | *You move slower out of water.* | Player walk speed is reduced by 30% while not touching water. | Fully Functional |
 | Small Body | `spooncraft_origins:small` | *You are smaller than a human and have the health and reach to match.* | Max health is decreased by 30%. Reach is decreased by 1 blocks. | Fully Functional |
 | *hidden* | `prscaleorigins:small_scale` | | Sets player scale to approximately 66%. | Fully Functional |
